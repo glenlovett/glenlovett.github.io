@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Intro"
+date:   2016-04-07 02:51:00 -0500
+category: "blog"
+---
+## Hello There
+
+After a lull in my online presence I've decided to spin up a new blog to keep some folks updated with some aspects of my life and
+to have a place to post various content.
+
+### Expectations
+
+I'll mainly be posting about the following topics
+
+1. Programming endeavors
+2. Biking adventures
+3. Novice photography musings

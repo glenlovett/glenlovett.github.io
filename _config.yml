@@ -1,0 +1,15 @@
+# Site settings
+title:       Glen Lovett
+author:      Glen Lovett
+description: "Software Developer"
+baseurl:     ""
+url:         "http://glenlovett.com" 
+
+# Social Links
+github_username:  glovett
+linkedin_username: glenlovett
+repository: https://github.com/glenlovett/glenlovett.github.io
+
+# Build settings
+markdown: kramdown
+permalink: pretty
