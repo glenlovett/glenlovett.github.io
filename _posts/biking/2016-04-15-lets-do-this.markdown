@@ -6,22 +6,22 @@ category: "biking"
 ---
 ## The Plan Emerges
 
-I think it was sometime in my mid teen years that I first heard of someone biking across the United States of America from coast to coast. Until then, for whatever reason, I hadn't really thought of it as something one might even have the will or ability to do. I was very impressed by the concept of being able to complete such an endeavour, mentally logged it in the back of my head as something that humans are generally capable of doing, and in doing so I felt an increased appreciation for being a thing as amazing as a human being.
+I think it was sometime in my mid teen years that I first heard of someone biking across the United States of America from coast to coast. Until then, for whatever reason, I hadn't really thought of it as something one might even have the will or ability to do. I was very impressed by the concept of being able to complete such an endeavour, mentally logged it in the back of my head as something that humans are generally capable of doing, and in doing so I felt an increased appreciation for being a thing so amazing as a human being.
 
-Well, fast forward 10 or so years and this realization finds its way back into my stream of consiousness. So, knowing that I will find myself with flexible chunk of free time in the near future, I Google search "biking across America" on my train commute to work (shame on me for not feeling up to Biking to work that day; I live in Boston and it was late Winter at the time). Wow, there is a vast wealth of information surrounding long distance Bike touring in the United States! I suppose I wasn't too surprised, but I will say I found what I was looking for, and that settled it. I was going to do my absolute best to bike across the United States. The planning had started.
+Well, fast forward 10 or so years and this realization finds its way back into my stream of consiousness. So, knowing that I will find myself with flexible chunk of free time in the near future, I Google search "biking across America" on my train commute to work (shame on me for not feeling up to biking to work that day; I live in Boston and it was late Winter at the time). Wow, there is a vast wealth of information surrounding long distance bike touring in the United States! I suppose I wasn't too surprised, but I will say I found what I was looking for, and that settled it. I was going to do my absolute best to bike across the United States. The planning had started.
 
 ## Present Day
 
 I now find myself in what is I would the late stages of planning my trip. I have the following things in order:
 
-* My Route selected
-* My Bike equipped with rack, panniers, and other accessories
+* Route selected
+* Bike equipped with rack, panniers, and other accessories
 * Gear, tools, clothes and maps
 
 All that is really left at this point is getting a bit more familiar with longer trips. I suppose it could be argued that this could be the more important than the above, but a lot of my learning will have to happen on the road, and I fancy myself a resourseful person, so I'll just chalk it up to part of the adventure.
 
 ### The route
-Living on the East Coast of the U.S., I wanted to travel East to West. It feels more fitting to leave from my home, and travel towards a less known place, as opposed than starting off my journy with a plane flight and a then traveling back home. I've only ever been to the west coast once before and it was to the San Fransisco Bay area. I really enjoyed the city and environment out there, so decided that it likely be my destination. After initially thinking that I would be fine with simply using Google Maps suggested bike route, I realized that I would be better off getting some help with my Route. So I turned to [Adventure Cycling](http://adventurecycling.org) maps, and did my best at stitching together a route with their well reseached turn-by-turn maps. The final result came out to this, where the bright blue line will be my route, and the other lines are the full routes with which I stitched together my own:
+Living on the East Coast of the U.S., I wanted to travel East to West. It feels more fitting to leave from my home, and travel towards a less known place, as opposed than starting off my journy with a plane flight and a then traveling back home. I've only ever been to the west coast once before and it was to the San Fransisco Bay area. I really enjoyed the city and environment out there, so decided that it likely be my destination. After initially thinking that I would be fine with simply using Google Maps suggested bike route, I realized that I would be better off getting some help with my Route. So I turned to [Adventure Cycling](http://adventurecycling.org) maps, and did my best at stitching together a route with their well reseached turn-by-turn maps. The final result came out to this, where the bright blue line will be my route, and the other lines are the full routes with which I stitched together my own.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/route.png)
 
