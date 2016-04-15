@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Intro"
+title:  "Hello World"
 date:   2016-04-07 02:51:00 -0500
 category: "blog"
 ---
-## Hello World
+## Introduction
 
 After a lull in my online presence I've decided to spin up a new blog to keep some folks updated with some aspects of my life and
 to have a place to post various content.
