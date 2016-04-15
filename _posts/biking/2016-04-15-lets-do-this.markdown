@@ -22,7 +22,7 @@ All that is really left at this point is getting a bit more familiar with longer
 
 ### The route
 Living on the East Coast of the U.S., I wanted to travel East to West. It feels more fitting to leave from my home, and travel towards a less known place, as opposed than starting off my journy with a plane flight and a then traveling back home. I've only ever been to the west coast once before and it was to the San Fransisco Bay area. I really enjoyed the city and environment out there, so decided that it likely be my destination. After initially thinking that I would be fine with simply using Google Maps suggested bike route, I realized that I would be better off getting some help with my Route. So I turned to [Adventure Cycling](Adventure Cycling) maps, and did my best at stitching together a route with their well reseached turn-by-turn maps. The final result came out to this, where the bright blue line will be my route, and the other lines are the full routes with which I stitched together my own:
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/gh-pages/assets/route.png)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/route.png)
 
 I have an initial journy from Boston, MA to Orchard Park, NY without the maps, which will likely take around ~7 days of riding. All told I am still figuring out exactly how long my whole trip will likely take. Given my conservative estimate of ~50 miles a day with rest days, I beleive I am looking at between 2 and 3 months.
 
