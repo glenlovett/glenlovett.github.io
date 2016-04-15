@@ -25,7 +25,7 @@ Living on the East Coast of the U.S., I wanted to travel East to West. It feels 
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/route.png)
 
-I have an initial journy from Boston, MA to Orchard Park, NY without the maps, which will likely take around ~7 days of riding. All told I am still figuring out exactly how long my whole trip will likely take. Given my conservative estimate of ~50 miles a day with rest days, I beleive I am looking at between 2 and 3 months.
+I have an initial journy from Boston, MA to Orchard Park, NY without the maps, which will likely take around 10 days of riding. All told I am still figuring out exactly how long my whole trip will likely take. Given my conservative estimate of ~50 miles a day with rest days, I beleive I am looking at between 2 and 3 months.
 
 ### The Gear
 
