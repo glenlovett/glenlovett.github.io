@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Bike Tour 2016"
+title:  "Oh Right, I Can Do That"
 date:   2016-04-07 02:52:00 -0500
 category: "biking"
 ---
-## Oh Right, I Can Do That
+## The Plan Emerges
 
 I think it was sometime in my mid teen years that I first heard of someone biking across the United States of America from coast to coast. Until then, for whatever reason, I hadn't really thought of it as something one might even have the will or ability to do. I was very impressed by the concept of being able to complete such an endeavour, mentally logged it in the back of my head as something that humans are generally capable of doing, and in doing so I felt an increased appreciation for being a thing as amazing as a human being.
 
