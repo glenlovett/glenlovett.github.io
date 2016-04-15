@@ -33,4 +33,4 @@ I have a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1JToXwzN94L
 
 ## The Future
 
-This weekend I'll be camping on the cape to get a feel for longer distance touring. Look for a future post. Until then!
+This weekend I'll be camping on "The Cape" to get a feel for longer distance touring. Look for a future post. Until then!
