@@ -20,11 +20,11 @@ From South Station I took the Commuter Rail to Middleborough, MA and arrived aro
 
 The first notable point was when I had to cross the Cape Cod Canal using the Bourne Bridge (the southernmost bridge of a pair of two 4-lane steel suspension bridges spanning the canal). I gladly heeded the advice prompting cyclists to dismount before walking across the pedestrian sidewalk for about a half mile over the bridge. I didn't stop to take a picture, since I was paranoid I would clumsily drop my phone, but have another Google Streetview to get a sense:
 
-![screenshot](https://github.com/glenlovett/glenlovett.github.io/blob/master/assets/capecod2.png)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/capecod2.png)
 
 After I had made my way across, it was underneath the bridge and then along the canal's service path, which is open to bikers and walkers. A view from underneath. This bridge is large.
 
-![screenshot](https://github.com/glenlovett/glenlovett.github.io/blob/master/assets/IMG_20160416_122047493.jpg)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160416_122047493.jpg)
 
 As you may have noticed from the picture above, it had been getting cloudy throughout the day, and winds were picking up. Along the wide open canal, the winds were the strongest of the day, and were headed straight towards me, making my forward progress essentially as difficult as heading uphill, if not more difficult due to the inconsistent nature of wind. There were a few kids with their father or maybe scouts in a troop biking on the path as well, heading the opposite direction as me. I heard a shout of "you can do it!" which I honestly may have needed at that point.
 
