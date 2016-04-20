@@ -13,3 +13,5 @@ repository: https://github.com/glenlovett/glenlovett.github.io
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+excerpt_separator: <!--more-->

@@ -40,6 +40,10 @@ a {
   font-weight: $font-weight-base-bold;
 }
 
+h1 a::before {
+  content: '> ';
+}
+
 ol,
 ul,
 p {

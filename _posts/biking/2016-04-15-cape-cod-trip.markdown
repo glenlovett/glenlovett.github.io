@@ -8,6 +8,8 @@ category: "biking"
 
 I wanted to get a feel for what my cross-country trip will entail, and though I arguably could have done some of that _before_ getting my heart set on biking 3000+ miles, sometimes things just dont work like that.
 
+<!--more-->
+
 My last day at work was a Friday, and it was a great day. A company-wide [Unconference](https://en.wikipedia.org/wiki/Unconference) was held the second half of the day and it gave me time to unwind and share thoughts with coworkers, say my farewells and well-wishes, and buy some tickets for Nickerson State Park campground, which I would head to the next day. I got things packed and got to sleep early that night, as I planned on traveling roughly 100 miles the next day between train and bike.
 
 ## Training, Biking, and Traning
@@ -40,7 +42,7 @@ Finally I rolled in to Nickerson State Park sometime after 4, and was happy to s
 
 My original site. Laughably gross. Rest assured, where I got moved to was much nicer, flatter, and had both sun _and_ shade:
 
-![screenshot](https://github.com/glenlovett/glenlovett.github.io/blob/master/assets/IMG_20160416_165606693.jpg)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160416_165606693.jpg)
 
 Much of that night's events were done to stay warm and in good sprits, as this was my first experience camping solo. I think I fared pretty well with that considered. I bought some firewood and beans from the camp store and heated the can of beans over the fire and some Oatmeal using the MSR ultralight stove I had brought. Not the heartiest of meals considering the milage I had done that day, but I think it met the caloric needs I had. And with that done, I jumped in my sleeping bag early, threw my bivvy sac over my head for some more warmth, and crashed.
 
@@ -48,7 +50,7 @@ Much of that night's events were done to stay warm and in good sprits, as this w
 
 The next day was a break day I had no obligations and no real itenerary other than to explore, and I did so, hiking the loop around the pond in the center of the campground. A fair amount of people were out enjoying the sunny day, fishing and walking.
 
-![screenshot](https://github.com/glenlovett/glenlovett.github.io/blob/master/assets/IMG_20160417_085716427.jpg)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160417_085716427.jpg)
 
 I'll have to cut off some more details as this post is getting longer than I would have liked.
 
@@ -56,6 +58,8 @@ I'll have to cut off some more details as this post is getting longer than I wou
 
 I learned that Commuter Rail service would not allow Bikes on the trains on Monday due to the Boston Marathon, so I took a layover at a motel and took this great shot of the sunset over a marsh. These shots were taken with my phone but I hope to carry my DSLR on my cross-country trip.
 
-![screenshot](https://github.com/glenlovett/glenlovett.github.io/blob/master/assets/IMG_20160418_181801453_HDR.jpg)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160418_181801453_HDR.jpg)
+
+I traveled back, mostly the way I had came, to my apartment in Somerville and where I am continuing to prep.
 
 Speaking of which, I'll likely be prepping and training for the next ~2 weeks or so and then start on the long journy to San Fransisco. More details when I have them. Peace.
