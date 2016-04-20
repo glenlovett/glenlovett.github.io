@@ -66,6 +66,7 @@
 }
 
 .page-navigation {
+  overflow: hidden;
 
   .previous {
     float: left;
@@ -74,4 +75,16 @@
   .next {
     float: right;
   }
+}
+
+img + em {
+  font-size: $font-size-small;
+  color: $text-color-light;
+  padding: 0 2em;
+  display: block;
+}
+
+#disqus_thread {
+  border-top: 2px solid $border-color;
+  margin-top: 2em;
 }
