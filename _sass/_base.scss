@@ -151,3 +151,15 @@ pre {
     clear: both;
   }
 }
+
+img.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+
+  &:hover {
+    -webkit-filter: initial;
+    filter: initial;
+  }
+}

@@ -1,0 +1,89 @@
+- id: greater_boston
+  description: Greater Boston
+  imagefolder: /assets/galleries/greater_boston
+  images:
+  - name: 2.jpg
+    thumb: 2.jpg
+    text: Boston, MA
+  - name: 3.jpg
+    thumb: 3.jpg
+    text: Boston, MA
+  - name: 4.jpg
+    thumb: 4.jpg
+    text: Boston, MA
+  - name: 5.jpg
+    thumb: 5.jpg
+    text: Boston, MA
+  - name: 6.jpg
+    thumb: 6.jpg
+    text: Boston, MA
+  - name: 7.jpg
+    thumb: 7.jpg
+    text: Boston, MA
+  - name: 8.jpg
+    thumb: 8.jpg
+    text: Boston, MA
+  - name: 10.jpg
+    thumb: 10.jpg
+    text: Boston, MA
+  - name: 11.jpg
+    thumb: 11.jpg
+    text: Boston, MA
+  - name: 12.jpg
+    thumb: 12.jpg
+    text: Boston, MA
+  - name: 13.jpg
+    thumb: 13.jpg
+    text: Boston, MA
+  - name: 14.jpg
+    thumb: 14.jpg
+    text: Boston, MA
+  - name: 15.jpg
+    thumb: 15.jpg
+    text: Boston, MA
+  - name: 16.jpg
+    thumb: 16.jpg
+    text: Boston, MA
+  - name: 17.jpg
+    thumb: 17.jpg
+    text: Boston, MA
+  - name: 18.jpg
+    thumb: 18.jpg
+    text: Boston, MA
+  - name: 19.jpg
+    thumb: 19.jpg
+    text: Boston, MA
+  - name: 20.jpg
+    thumb: 20.jpg
+    text: Boston, MA
+  - name: 21.jpg
+    thumb: 21.jpg
+    text: Boston, MA
+  - name: 22.jpg
+    thumb: 22.jpg
+    text: Boston, MA
+- id: phone_photos
+  description: Phone Photos
+  imagefolder: /assets/galleries/phone_photos
+  images:
+  - name: 1.jpg
+    thumb: 1.jpg
+    text: Spider in Glass
+  - name: 2.jpg
+    thumb: 2.jpg
+    text: Oak Grove Station, Melrose MA
+  - name: 3.jpg
+    thumb: 3.jpg
+    text: Mystic River, Medford MA
+  - name: 4.jpg
+    thumb: 4.jpg
+    text: Melrose, MA
+  - name: 5.jpg
+    thumb: 5.jpg
+    text: Arlington's Great Meadows, Lexington MA
+  - name: 6.jpg
+    thumb: 6.jpg
+    text: Arlington's Great Meadows, Lexington MA
+  - name: 7.jpg
+    thumb: 7.jpg
+    text: Sunday River, Newry ME
