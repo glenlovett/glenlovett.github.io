@@ -4,6 +4,7 @@ title: Rail Trails and Other Things
 date: 2016-05-12 02:52:00 -0500
 category: "biking"
 comments: true
+excerpt: Worcester through Amherst
 ---
 ## I love rail trails
 
