@@ -4,9 +4,8 @@ title: Rail Trails and Other Things
 date: 2016-05-12 02:52:00 -0500
 category: "biking"
 comments: true
-excerpt: Worcester through Amherst
 ---
-
+<meta content="Description" property="Worcester through Amherst">
 ## I love rail trails
 
 Hi again! Just lying down after day two of my trip. Today was great, with some spectacular scenery. Going into the day knew that there were some steep uphills, some rail trail sections, and a nice downhill stretch to finish things off. On that note, I love the Google maps elevation profile preview when routing bike routes.
