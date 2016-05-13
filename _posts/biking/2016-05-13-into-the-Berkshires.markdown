@@ -4,7 +4,7 @@ title: Into the Berkshires
 date: 2016-05-13 02:52:00 -0500
 category: "biking"
 comments: true
-excerpt: I eat hips for breakfast
+excerpt: OOOoh my hills don't lie
 ---
 ## The first test
 
