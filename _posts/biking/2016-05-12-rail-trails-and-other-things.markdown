@@ -15,7 +15,7 @@ After a quick breakfast, I found myself tracking the first hilly section to come
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160512_094146754.jpg)
 *On top of the first hill*
 
-Soon after, I found the entrance to the Mass Central Rail Trail, which is one of many rail trails in the region built over sections of the old [Boston and Maine Railroad](https://en.m.wikipedia.org/wiki/Boston_and_Maine_Corporation) lines. I'm very grateful that these retired tracks of land Have been repurposed to benefit walkers, runners, bikers, and the like. I enjoyed this section of the day the most.
+Soon after, I found the entrance to the Mass Central Rail Trail, which is one of many rail trails in the region built over sections of the old [Boston and Maine Railroad](https://en.m.wikipedia.org/wiki/Boston_and_Maine_Corporation) lines. I'm very grateful that these retired tracks of land have been repurposed to benefit walkers, runners, bikers, and the like. I enjoyed this section of the day the most.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160512_101035677.jpg)
 *Moment of silence on the trail*
