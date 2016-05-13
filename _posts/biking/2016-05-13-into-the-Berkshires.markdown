@@ -8,9 +8,9 @@ excerpt: OOOoh my hills don't lie
 ---
 ## The first test
 
-I knew going into today that the next two days would be physically challenging. Today due to the steep climbs and tomorrow due to a long ride. In fact, the hills today are some of the largest I'll encounter into further towards the west coast. So I'm glad to say I got through them ok!
+I knew going into today that the next two days would be physically challenging. Today due to the steep climbs and tomorrow due to a long ride. In fact, the hills today are some of the largest I'll encounter until further towards the west coast. So I'm glad to say I got through them ok!
 
-My ride started finishing the last of the Rail Trail out of Hadley. I crossed the Connecticut River, making good progress but knowing to pace myself. But I didn't want to go too slowly, as I knew that rain was moving in from the West.
+My ride started off by finishing the last of yesterday's Rail Trail out of Hadley. I crossed the Connecticut River, making good progress but knowing to pace myself. But I didn't want to go too slowly, as I knew that rain was moving in from the West.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160513_093200065_HDR.jpg)
 *The Connecticut River*
