@@ -16,10 +16,13 @@ Anyways, here are some thoughts from my last two days in New York!
 
 Between myself and the state border was one last hill in the berkshire/taconic mountain regions, and I got up it without too much trouble. At the top were some rest stops with great views of the New York countryside.
 
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160514_092527134.jpg)
+*New York! Was nice going downhill into this.*
+
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160514_093429526.jpg)
 *Obligatory welcome to new York sign.*
 
-After rolling down into the valley, I found myself in a hilly region with nice roads and farms or forests on either side of me. New York state Route 5A is pretty bike-friendly as far as shoulder width is concerned, and has occasional signs indicating that it is a bike route, which is always nice confirmation that you're likely on the right road.
+After rolling down into the valley, I found myself in a region of small rolling hills with nice roads and farms or forests on either side of me. New York state Route 5A is pretty bike-friendly as far as shoulder width is concerned, and has occasional signs indicating that it is a bike route, which is always nice confirmation that you're likely on the right road.
 
 I passed through Troy, which was an interesting city, and felt like it could almost be a Boston suburb. Since I had far to go this day I didn't stop.
 
@@ -41,7 +44,10 @@ The next morning was windy, with 20 mph winds coming from the West. This, couple
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_104948645_HDR.jpg)
 *One of the few pictures from the day, which features the trail, a highway, and train tracks all in one, in that order from left to right.*
 
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_143831894.jpg)
-*Another sorta cool one, with an historic building.*
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_104948645_HDR.jpg)
+*One of the few pictures from the day, which features the trail, a highway, and train tracks all in one, in that order from left to right.*
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_134009450.jpg)
+*Pigs.*
 
 Here's hoping that my shorter trip to East Syracuse tomorrow is without any problems! It will be good to get back on track. Until then!
