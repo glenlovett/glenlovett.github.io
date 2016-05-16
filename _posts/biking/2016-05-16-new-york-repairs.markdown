@@ -8,11 +8,11 @@ excerpt: Pittsfield MA to Utica NY
 ---
 ## Enter: New York
 
-Phew. Ok, sorry for the couple missing days of posts, but I've been busy getting back on track. Two days ago I crossed into New York early, and biked 80 miles. Yesterday I begrudgingly biked into 20 mph winds for another 65 miles. So now, I'm in Utica. While here I had to take a rest day to fix up my bike, which had a spoke break on the rear wheel at the end of my last ride.I
+Phew. Ok, sorry for the couple missing days of posts, but I've been busy getting back on track. Two days ago I crossed into New York early, and biked 80 miles. Yesterday I begrudgingly biked into 20 mph winds for another 65 miles. So now, I'm in Utica. While here I had to take a rest day to fix up my bike, which had a spoke break on the rear wheel at the end of my last ride.
 
- have a spoke replacement tool, a "fiberfix", but I didn't have to ride on it, as in the process of installing it, I mistakenly removed my chain the incorrect way, necessitating a new one. The upshot is that I made many mistakes, but I made them at convenient times! So I took the wheels to a bike shop on Utica and got them trued up a bit better than I could do myself and bought a new chain, which I will make sure not to remove incorrectly next time.
+I have a spoke replacement tool, a "fiberfix", but I didn't have to ride on it, as in the process of installing it, I mistakenly removed my chain the incorrect way, necessitating a new one. The upshot is that I made many mistakes, but I made them at the right time, when I'm still in the phase of my hourly where it's safe to experiment and fail! So I took the wheels to a bike shop on Utica and got them trued up a bit better than I could do myself and bought a new chain, which I will make sure not to remove incorrectly next time. The upside to the hassle is that it's an excuse for this rest day, and it tought me a good amount.
 
-Anyways, here are some thoughts from the last few days in New York!
+Anyways, here are some thoughts from my last two days in New York!
 
 Between myself and the state border was one last hill in the berkshire/taconic mountain regions, and I got up it without too much trouble. At the top were some rest stops with great views of the New York countryside.
 
