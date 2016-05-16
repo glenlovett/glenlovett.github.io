@@ -44,10 +44,10 @@ The next morning was windy, with 20 mph winds coming from the West. This, couple
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_104948645_HDR.jpg)
 *One of the few pictures from the day, which features the trail, a highway, and train tracks all in one, in that order from left to right.*
 
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_104948645_HDR.jpg)
-*One of the few pictures from the day, which features the trail, a highway, and train tracks all in one, in that order from left to right.*
-
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_134009450.jpg)
 *Pigs.*
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160515_143831894.jpg)
+*Another sorta cool one, with an historic building.*
 
 Here's hoping that my shorter trip to East Syracuse tomorrow is without any problems! It will be good to get back on track. Until then!
