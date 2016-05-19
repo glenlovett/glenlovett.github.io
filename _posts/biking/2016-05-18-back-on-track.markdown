@@ -30,7 +30,7 @@ Near the end of the day I stopped to eat a bunch of chicken wings and pizza, the
 
 Soon enough I made it to America's Best Value Inn in East Syracuse (it may actually have been the best value, as due to a failure of their credit card system, I'm not entirely sure I paid, even though I pointed it out to them... I'll check later.)
 
-##To the "Campground"
+##To the 'Campground'
 Leaving Syracuse was sort of painful, as it was probably around rush hour and Syracuse isn't really all that nice from an infrastructure standpoint from what I can tell. Regardless, I was happy to pass both a cheap grocery store and a shipping center to send some things home, replacing my bulky camera with the equivalent weight in 100% more edible items. Then I was out of Syracuse, and back on the one lane highways with wide shoulders. Legs are starting to get pretty sore at this point, as is my *ahem* saddle. I see another rest day not far in my future.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160518_113208717.jpg)
@@ -41,6 +41,6 @@ I am still ignoring much of the suggested directions coming from my cyber compan
 I bought a large sub and some snacks at what I learned upon entering was an Amish Owned grocery store, and my bill came out to $6.66. Heh. Then I was at my destination, Junius Ponds Cabins and Campgrounds. It's an odd place. But very niceley maintained. Shame it's not the "real" camping I was looking for, which I imagine I'll get soon enough.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160518_184712438.jpg)
-*My quiant campsite, featuring my shadow. My tent has power via my solar panel.*
+*Quaint. My campsite, featuring my shadow. My tent has power via my solar panel.*
 
 Well that's it for now. Another family owned campground tomorrow, and then to Orchard Park the next day, where I meet up with the routes offered by my paper maps! Cya.
