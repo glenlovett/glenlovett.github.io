@@ -36,7 +36,7 @@ Leaving Syracuse was sort of painful, as it was probably around rush hour and Sy
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160518_113208717.jpg)
 *I found the windows XP desktop background image.*
 
-I am still ignoring much of the suggested directions coming from my cyber companion, Google Maps, as it is *adamant* on routing me towards the Erie Canal trail, which I know to avoid by now for fear of its stoney dusty wrath. No matter, I rooted my own way using roads I've already identified as being as close to bike friendly as possible. The last miles I was admittedly constantly checking my miles, counting down the last couple. It's a habit I'm trying to avoid; getting antsy during the last stretch and pushing it too hard.
+I am still ignoring much of the suggested directions coming from my cyber companion, Google Maps, as it is *adamant* on routing me towards the Erie Canal trail, which I know to avoid by now for fear of its stoney dusty wrath. No matter, I charted my own way using roads I've already identified as being as close to bike friendly as possible. The last miles I was admittedly constantly checking my miles, counting down the last couple. It's a habit I'm trying to avoid; getting antsy during the last stretch and pushing it too hard.
 
 I bought a large sub and some snacks at what I learned upon entering was an Amish Owned grocery store, and my bill came out to $6.66. Heh. Then I was at my destination, Junius Ponds Cabins and Campgrounds. It's an odd place. But very niceley maintained. Shame it's not the "real" camping I was looking for, which I imagine I'll get soon enough.
 
