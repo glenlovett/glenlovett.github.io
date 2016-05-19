@@ -33,7 +33,7 @@ Soon enough I made it to America's Best Value Inn in East Syracuse (it may actua
 
 ## To the "Campground"
 
-Leaving Syracuse was sort of painful, as it was probably around rush hour and Syracuse isn't really all that nice from an infrastructure standpoint from what I can tell. Regardless, I was happy to pass both a cheap grocery store and a shipping center to send some things home, replacing my bulky camera with the equivalent weight in 100% more edible items. Then I was out of Syracuse, and back on the one lane highways with wide shoulders. Legs are starting to get pretty sore at this point, as is my *ahem* saddle. I see another rest day not far in my future.
+Leaving Syracuse was sort of painful, as it was probably around rush hour and Syracuse isn't really all that nice from an infrastructure standpoint from what I can tell. Regardless, I was happy to pass both a cheap grocery store and a shipping center to send some things home, replacing my bulky camera with the equivalent weight in 100% more edible cargo. Then I was out of Syracuse, and back on the one lane highways with wide shoulders. Legs are starting to get pretty sore at this point, as is my *ahem* saddle. I see another rest day not far in my future.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160518_113208717.jpg)
 *I found the windows XP desktop background image.*
