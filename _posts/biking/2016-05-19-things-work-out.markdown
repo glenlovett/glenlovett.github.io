@@ -37,6 +37,6 @@ I rolled in exhausted at my destination a little after 6pm, which is when I info
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160519_201436405.jpg)
 *One of the neighborhoods, for lack a better word.*
 
-So, today started rocky but turned out great! And since my legs are shot, I took the one day trip to Orchard Park and slot it into the next two days. I'm done with 60+ mile days, and am happy to have some 30 mile days in front of me.
+So, today started rocky but turned out great! And since my legs are shot, I took the one day trip to Orchard Park and split it into the next two days. I'm done with 60+ mile days, and am happy to have some 30 mile days in front of me.
 
 And now I sleep.
