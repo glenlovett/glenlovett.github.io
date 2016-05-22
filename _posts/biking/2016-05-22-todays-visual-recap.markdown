@@ -33,6 +33,8 @@ Hi again! Would rather spend time off my phone, and today was a short and relati
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160522_181707707.jpg)
 *Set up camp and put my washed clothes out to dry.*
 
-Also today I took care of some tweaking/maintenance tasks with my bike, one of which was preventing me from riding using the highest back gear and required replacing a bolt on my rack. I solved that one with a stop at a hardware store. It is very rewarding to fix these kinds of problems for ones self, especially when your means of transportation depend on it. Anyways, I plan on spending tomorrow in Pennsylvania and the next day be in Ohio, so we'll see what's going on over in those states. Just note I may find myself too busy exploring Erie and Cleveland to give very thorough updates.
+Also today I took care of some tweaking/maintenance tasks with my bike, one of which was preventing me from riding using the highest back gear and required replacing a bolt on my rack. I solved that one with a stop at a hardware store. It is very rewarding to fix these kinds of problems for ones self, especially when your means of transportation depend on it.
+
+Anyways, I plan on spending tomorrow in Pennsylvania and the next day be in Ohio, so we'll see what's going on over in those states. Just note I may find myself too busy exploring Erie and Cleveland to give very thorough updates.
 
 Cya!
