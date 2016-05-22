@@ -8,14 +8,14 @@ excerpt: Easy day to Attica, then to Lake Erie
 ---
 ## People
 
-Hi again! Feeling pretty tired, and my motel owner is out back using some kind of loud power tool so I'm having difficulty focusing, but I owe it to the people I've met the past two days to give an update! Probably less comments on the landscape in this one, as in some cases it was more of what we've already seen.
-
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160520_145352661.jpg)
-*My room. I personally love the retro vibes I got. Feels nostalgic.*
+Hi again! Feeling pretty tired, but I owe it to the people I've met the past two days to give an update! Probably less comments on the landscape in this one, as in some cases it was more of what we've already seen.
 
 I took a short day on Thursday and only went to Attica and got a room at The Attica Motel. It's a nice place on a hill overlooking a little town center. Checking in, I met one of the owners of the property, a very kind woman named Kavita, who gave me some food for my journey in the form of noodles, granola bars, and oatmeal! I am still learning accept such forthcoming kindness and generosity gracefully. We talked about my trip and some other things. I then had time while in my room to plan the next few days, which I am happy to say are looking pretty solid.
 
-After a trip to restock on some food I relaxed for a bit. I heard some folks hanging outside and tentatively stood around my door to see who they were. One of them invited me over for a beer and hang out. Turns out that they were some guys around my age and some older who work on wind power technologies, including work involving scaling the turbines to install new features and service them in various ways. They too were interested in my trip, and we talked about the various things I'll be in for, the good and the hard. It made me excited for the future, and I hope that they can live vicariously through my trip if they keep track of my progress here. They also each has their own adventure stories, which were awesome to hear.
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160520_145352661.jpg)
+*My room in Attica. I personally love the retro vibes I got. Feels nostalgic.*
+
+After a trip to restock on some food I relaxed for a bit. I heard some folks hanging outside and tentatively stood around my door to see who they were. One of them kindly invited me over for a beer and to hang out. Turns out that they were some guys around my age and some older who work on wind power technologies, including work involving scaling the turbines to install new features and service them in various ways. They too were interested in my trip, and we talked about the various things I'll be in for, the good and the hard. It made me excited for the future, and I hope that they can live vicariously through my trip if they keep track of my progress here. They also each has their own adventure stories, which were awesome to hear.
 
 I was even given a huge helping of some food they were grilling, and ate more than enough delicious grilled chicken to make up for my difficulty finding enough protein the past few days. So much kindness when you're traveling alone through new places! I hope to stay in touch with them.
 
