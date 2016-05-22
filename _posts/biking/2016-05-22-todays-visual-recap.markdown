@@ -27,7 +27,7 @@ Hi again! Would rather spend time off my phone, and today was a short and relati
 
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160522_174252082.jpg)
-*Arrived at my campground, the first "KOA", Kampgrounds of America, I've ever stayed at. It's really nice, and my probative site (there was also RV spaces) is across a little brook, which an employee crossed in an ATV to show me to. I wisely *walked* my bike across the bridge.*
+*Arrived at my campground, the first KOA, or 'Kampgrounds of America', I've ever stayed at. It's really nice, and my "primative" site (there was also RV spaces) is across a cool brook, which an employee crossed in an ATV to show me to. I wisely just walked my bike across the bridge.*
 
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160522_181707707.jpg)
