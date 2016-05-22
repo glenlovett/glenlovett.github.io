@@ -27,7 +27,7 @@ The next day it was off to the Erie Lake shore region. After an initial uphill, 
 ## A Big Lake
 
 
-Soon enough I caught my first view of Lake Erie, which is like a baby ocean. Hm, cool. Though I am more of a lake based person. Asking the Erie Lake suburbs and towns I saw some really nice houses, some less than nice areas, a few Tim Horton's (which I'm making a mental note to give a try), and ride in the smoothest road I've been on since I don't remember when. It was that smooth and fast, that I need to explicitly call it out. Before I knew it I was at my destination, which is my last motel for the next week or so before I go on a camping spree and potentially try out an American Hostel experience in Cleveland.
+Soon enough I caught my first view of Lake Erie, which is like a baby ocean. Hm, cool. Though I am more of a lake based person. Asking the Erie Lake suburbs and towns I saw some really nice houses, some less than nice areas, a few Tim Horton's (which I'm making a mental note to give a try, because why not), and ride in the smoothest road I've been on since I don't remember when. It was that smooth and fast, that I need to explicitly call it out. Before I knew it I was at my destination, which is my last motel for the next week or so before I go on a camping spree and potentially try out an American Hostel experience in Cleveland.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160521_123638507_HDR.jpg)
 *Lake Erie! It was an overcast day, but I'm interested to see it with less cloud cover.*
