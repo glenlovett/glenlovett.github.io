@@ -49,13 +49,14 @@ The bike trail I joined up with in Clyde was a nice straight shot following tele
 It basically acted as a wormhole taking me to the next notable city: Fremont. What, you ask, is Fremont Ohio notable for? Before today I wouldn't have been able to tell you, but as I learned upon arriving, it is notable for (among other things I'm sure) being the town where former president Rutherford B. Hayes lived. How did I learn that? I was part of a parade.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_134702443.jpg)
-*I originally heard the marching band and spotted the parade from a bridge on the trail, overlooking downtown Fremont. They head of the parade then literally met me at an intersection and I biked behind them, the crowd getting larger and larger. I was basically part of the thing at this point.*
+*I originally heard the marching band and spotted the parade from a bridge on the trail, overlooking downtown Fremont. The head of the parade then literally met me at an intersection and I biked behind them, the crowd getting larger and larger. I was basically part of the thing at this point.*
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_135034502.jpg)
 *The procession then gathered in the Rutherford B. Hayes Presidential Center, which has been nearly renovated. Today was the Centennial grand re-opening, and I can only imagine the entire town was there at this point to celebrate, as well as the Ohio State marching band. They performed outside of the historic household.*
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_140924808_HDR.jpg)
 *The library and museum. I didn't have time to stop in.*
+
 Wow. That was surreal. I took lots of video along with the pictures.
 
 Then it was out of Fremont in country roads. Midland Ohio is beautiful, and I hadn't been in it because I was traveling on the coast, then in the wormhole bike trail. A rainstorm hit me head on near the end of my ride, and it was the first biking I've done on my trip in heavy rains, though they were brief.
