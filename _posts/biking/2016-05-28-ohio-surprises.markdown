@@ -40,6 +40,7 @@ Then it was a nice ride to meet up with a bike path, the North Coast Inland Trai
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_114651946_HDR.jpg)
 *Clyde*
+
 The bike trail I joined up with in Clyde was a nice straight shot following telephone lines through tree and shrub lined areas bordered by farmland in either side.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_122150873.jpg)
@@ -61,6 +62,7 @@ Then it was out of Fremont in country roads. Midland Ohio is beautiful, and I ha
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_143704410_HDR.jpg)
 *You can see the rain far off, hitting the road from afar. This is not something I'm used to in New England, where rain is slower moving and hands over certain areas for a while.*
+
 I arrived at the campground, funded by the same country-wide organization that funds the bike trail I rode on, and set up. I didn't realize until then that there were no showers, and I needed one. The weather is getting warmer, and a bit humid. Luckily I remembered posting a lake open for swimming, and gladly paid the admission fee to jump in and get rinsed off. Ran back to my tent before another patch of rain hit, made a meal, and more here I am.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_154217022.jpg)
