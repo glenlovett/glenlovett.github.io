@@ -31,7 +31,7 @@ My destination the next day was Sandusky, notable for its rollercoaster park Ced
 I woke up early and left Sandusky.
 
 ![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160528_094838850.jpg)
-*There are a lot of reasons hauling long loads of freight in Ohio. I passed under this one. It was still chugging along a good 5 minutes after it's engine passed by. Must have been a mile long, and I never saw it's end.*
+*There are a lot of trains hauling long loads of freight in Ohio. I passed under this one. It was still chugging along a good 5 minutes after it's engine passed by. Must have been a mile long, and I never saw it's end.*
 
 Then it was a nice ride to meet up with a bike path, the North Coast Inland Trail, in Clyde Ohio. Entering Clyde I passed by a farm building selling apples and had to see if I could get some. Upon entering, I saw it was just self serve, which I though was nice. But then a woman came out from the back and told me to just grab as many as I wanted. Score! She said there had been others to pass through on their way across America. Hm, maybe the bike path drew them too this particular town. In any case code was a nice town, and I used my saved cash to buy some lunch there.
 
