@@ -32,8 +32,8 @@ BBQ down here is much easier to get than in Boston, unsurprisingly.
 
 As you can tell, I'm really roughing it.
 
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/FILENAME)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160608_085659222.jpg)
 
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/FILENAME)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160608_101926640.jpg)
 
-![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/FILENAME)
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160608_145937436.jpg)
