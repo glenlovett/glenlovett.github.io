@@ -27,4 +27,10 @@ With any luck I'll be back on track again tomorrow midday. The more these setbac
 
 Until next time.
 
-Pictures later... bed now.
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160614_210121404.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160616_154552626.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160616_155244438.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160617_082409161_HDR.jpg)
