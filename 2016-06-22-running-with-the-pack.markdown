@@ -26,3 +26,17 @@ Inside we found a shower, communal fridge, beds, and a kitchen. We got some food
 Today, we planned on a 75 mile day. After about 20, however, the wind coming at an angle from the Southwest proved a bit too strong. Gusts were scheduled to get upwards of 30 miles later in the day, and with a gap in services of over 50 miles coming up, we decided to call it a rest day and take a pit stop in Sterling KS. So, im in the sterling public library now beating the heat, charging my phone, and basking in the air conditioning. Oh, and Tom and Jane made it here just a few hours ago, so now we're all back together again. Tomorrow we'll set off towards Larned KS, and we're scheduled to have a tailwind.
 
 Until next time!
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160620_061442472.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160620_091926931.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160620_200806614.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160621_061316878_HDR.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160621_095131268.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160621_133917150.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160621_134726523.jpg)
