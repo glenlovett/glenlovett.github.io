@@ -32,3 +32,25 @@ Jim and I were at a gas station reading longer than 5 minutes after entering Sco
 So, we're lounging around in our large living area for the night having showered and relaxed, and we're very thankful to be out of another large lightning storm above is doing its thing! We'll likely get food after it passes.
 
 We have three more moderate days of riding ahead of us to get to Pueblo. Colorado is within sight! (Metaphorically, even though you can see things from very far off around here).
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160623_060509817.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160623_075004146.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160623_082746145.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160623_122344777.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160624_072340723.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160624_081450660.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160624_093903540.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160624_105248104.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160625_090801074.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160625_144222106.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160625_164614248.jpg)
