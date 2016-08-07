@@ -1,0 +1,20 @@
+---
+layout: post
+title: I did it!
+date: 2016-08-05 02:52:00 -0500
+category: "biking"
+comments: true
+excerpt: Success 
+---
+
+I did it!
+
+More details on a follow-up post, which will include stats, thank yous, details, and afterthoughts.
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160805_075342755.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160805_094405086.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160805_113946851.jpg)
+
+![screenshot](https://raw.githubusercontent.com/glenlovett/glenlovett.github.io/master/assets/IMG_20160805_121831619.jpg)
