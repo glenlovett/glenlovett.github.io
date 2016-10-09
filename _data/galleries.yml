@@ -1,3 +1,19 @@
+- id: bike_trip_2016
+  description: Bike Trip 2016
+  imagefolder: /assets/galleries/bike_trip_2016
+  images:
+  - name: 1.jpg
+    thumb: 1_small.jpg
+    text: Kansas
+  - name: 2.jpg
+    thumb: 2_small.jpg
+    text: Kansas
+  - name: 3.jpg
+    thumb: 3_small.jpg
+    text: Colorado
+  - name: 4.jpg
+    thumb: 4_small.jpg
+    text: Montana
 - id: greater_boston
   description: Greater Boston
   imagefolder: /assets/galleries/greater_boston
