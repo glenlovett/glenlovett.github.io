@@ -1,0 +1,6 @@
+{
+    "playerStartIndex":0,
+    "spaces":["plains","plains","plains","plains"],
+    "enemies":[null,null,null,"wolf"],
+    "exits":[8,-1,-1,-1]
+}

@@ -1,0 +1,6 @@
+{
+    "name":"rusty sword",
+    "image":"sword.png",
+    "type":"weapon",
+    "damage":[2,3]
+}

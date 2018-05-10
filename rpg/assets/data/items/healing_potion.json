@@ -1,0 +1,9 @@
+{
+    "name":"healing potion",
+    "image":"healing_potion.png",
+    "type":"consumable",
+    "description":"A bottle of healing stuff.",
+    "effects": [
+        {"type":"hpup", "magnitude":2}
+    ]
+}
