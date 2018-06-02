@@ -1,0 +1,11 @@
+{
+    "name":"heal",
+    "beneficial":true,
+    "effects":[
+        {
+            "type":"hpUpPercent",
+            "magnitude":20
+        }
+    ],
+    "description":"Concentrate on your wounds, healing 20% of your HP."
+}

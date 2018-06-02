@@ -2,5 +2,8 @@
     "name":"rusty sword",
     "image":"sword.png",
     "type":"weapon",
-    "damage":[2,3]
+    "description":"It used to be a lot more... sharp.",
+    "damage":[2,3],
+    "sellPrice":10,
+    "buyPrice":15
 }

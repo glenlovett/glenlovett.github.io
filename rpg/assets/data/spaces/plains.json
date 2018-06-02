@@ -1,5 +1,5 @@
 {
     "description":"The air blows freely over the rolling grassland.",
-    "color":4278222848,
+    "color":[61, 111, 67],
     "image":"plains.png"
 }

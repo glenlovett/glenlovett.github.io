@@ -1,0 +1,46 @@
+{
+    "description":"Your wisdom and depth of arcane knowledge increase your action points and defense, and allow you to perform mystical feats.",
+    "statIncreasePerPoint": {
+        "ap": 3,
+        "defense": 1
+    },
+    "skillTiers":[
+        {
+            "tier": 1,
+            "skillDefs": [
+                {
+                    "id":"heal",
+                    "requirements": [
+                        {
+                            "discipline": "soul",
+                            "requiredPoints": 3
+                        }
+                    ]
+                },
+                {
+                    "id":"righteous_strike",
+                    "requirements": [
+                        {
+                            "discipline": "soul",
+                            "requiredPoints": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tier": 2,
+            "skillDefs": [
+                {
+                    "id":"healing_fire",
+                    "requirements": [
+                        {
+                            "discipline": "soul",
+                            "requiredPoints": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

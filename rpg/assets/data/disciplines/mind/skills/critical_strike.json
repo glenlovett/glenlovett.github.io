@@ -1,0 +1,11 @@
+{
+    "name":"Critical Strike",
+    "attack":true,
+    "effects":[
+        {
+            "type":"criticalChance",
+            "magnitude":100
+        }
+    ],
+    "description":"Make a precise strike into the weakest spot on your enemy, dealing critical weapon damage."
+}

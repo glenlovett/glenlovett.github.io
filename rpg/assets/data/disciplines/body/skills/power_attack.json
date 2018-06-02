@@ -1,0 +1,11 @@
+{
+    "name": "power attack",
+    "attack":true,
+    "effects":[
+        {
+            "type": "attackUpPercent",
+            "magnitude": 100
+        }
+    ],
+    "description":"Attack with ferocity, doubling your normal base attack output."
+}

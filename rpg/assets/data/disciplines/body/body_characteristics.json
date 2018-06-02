@@ -1,0 +1,56 @@
+{
+    "description":"Your training with weapons and martial arts improves your defense, max health, and base attack. Enables skills related to physical combat.",
+    "statIncreasePerPoint": {
+        "defense": 2,
+        "hp": 1,
+        "attack": 1
+    },
+    "skillTiers":[
+        {
+            "tier": 1,
+            "skillDefs": [
+                {
+                    "id":"power_attack",
+                    "requirements": [
+                        {
+                            "discipline": "body",
+                            "requiredPoints": 3
+                        }
+                    ]
+                },
+                {
+                    "id":"mindful_strike",
+                    "requirements": [
+                        {
+                            "discipline": "body",
+                            "requiredPoints": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tier": 2,
+            "skillDefs": [
+                {
+                    "id":"defensive_stance",
+                    "requirements": [
+                        {
+                            "discipline": "body",
+                            "requiredPoints": 10
+                        }
+                    ]
+                },
+                {
+                    "id":"tackle",
+                    "requirements": [
+                        {
+                            "discipline": "body",
+                            "requiredPoints": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

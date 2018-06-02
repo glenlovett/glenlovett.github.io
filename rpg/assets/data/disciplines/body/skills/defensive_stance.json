@@ -1,0 +1,12 @@
+{
+    "name":"defensive stance",
+    "beneficial":true,
+    "effects":[
+        {
+            "type":"defenseUpPercent",
+            "magnitude":100,
+            "duration":3
+        }
+    ],
+    "description":"Take a defensive stance, doubling your defense for 3 turns."
+}

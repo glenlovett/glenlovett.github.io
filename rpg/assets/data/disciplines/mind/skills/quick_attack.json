@@ -1,0 +1,6 @@
+{
+    "name":"quick attack",
+    "attack":true,
+    "usesNoTurn":true,
+    "description":"Attack your foe with lightning quickness, enabling an immediate follow-up."
+}

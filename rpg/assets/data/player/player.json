@@ -1,4 +1,6 @@
 {
     "level":1,
+    "gold":15,
+    "name":"Player",
     "inventory":["healing_potion"]
 }

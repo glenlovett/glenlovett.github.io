@@ -1,0 +1,9 @@
+{
+    "level":1,
+    "name":"hidden hermit",
+    "image":"potion_man.png",
+    "dialogue":{
+        "response":["..."],
+        "result":"end"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name":"righteous strike",
+    "attack":true,
+    "effects":[
+        {
+            "type":"retribution",
+            "magnitude":50,
+            "duration":1
+        }
+    ],
+    "description":"Attack your foe. This turn, 50% of damage from enemy attacks is negated and sent back to the attacker."
+}

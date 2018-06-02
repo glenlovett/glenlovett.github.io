@@ -1,7 +1,6 @@
 {
     "description":"You see a little town. You feel safe here.",
-    "color":-425759341,
+    "color":[191, 165, 201],
     "safe":true,
-    "rest":true,
     "image":"town.png"
 }

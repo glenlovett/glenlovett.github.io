@@ -1,0 +1,11 @@
+{
+    "name": "mindful strike",
+    "attack":true,
+    "effects":[
+        {
+            "type": "ignoreDefensePercent",
+            "magnitude": 50
+        }
+    ],
+    "description":"Attack your enemies weakest spots with precision, ignoring 50% of their defense."
+}

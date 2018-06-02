@@ -1,0 +1,38 @@
+{
+    "description":"Your mental acuity improves your base attack, max action points, and max health. Enables skills focused on speed and precision.",    
+    "statIncreasePerPoint": {
+        "attack": 2,
+        "ap": 1,
+        "hp": 1
+    },
+    "skillTiers":[
+        {
+            "tier": 1,
+            "skillDefs": [
+                {
+                    "id":"critical_strike",
+                    "requirements": [
+                        {
+                            "discipline": "mind",
+                            "requiredPoints": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tier": 2,
+            "skillDefs": [
+                {
+                    "id":"quick_attack",
+                    "requirements": [
+                        {
+                            "discipline": "mind",
+                            "requiredPoints": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

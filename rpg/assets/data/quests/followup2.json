@@ -1,0 +1,16 @@
+{
+    "name":"Kill Some Dummys",
+    "description": "Defeat 2 practice dummys and return to the hidden hermit",
+    "toComplete": {
+        "kill": [
+            { "name":"practice dummy", "quantity":2 }
+        ]
+    },
+    "satisfiedDialogue": {
+        "response":["Good job with those dummys", "I have trained you well."],
+        "result":"completeQuest"
+    },
+    "reward": {
+        "gold": 10
+    }
+}

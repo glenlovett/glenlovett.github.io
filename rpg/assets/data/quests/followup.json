@@ -1,0 +1,27 @@
+{
+    "name":"Find the Hermit",
+    "description": "Talk to the hidden hermit.",
+    "endNpcName":"hidden hermit",
+    "toComplete": {
+        "talkTo":["hidden hermit"]
+    },
+    "satisfiedDialogue": {
+        "response":["Hi. Looking for someone?"],
+        "options":
+        [
+            {
+                "option":"Nope.",
+                "result":"talk"
+            },
+            {
+                "option":"Yes, a hidden hermit.",
+                "response":["He is I... And I heard you helped my brother with those pelts.","Now go defeat 2 practice dummys."],
+                "result":"completeQuest"
+            }
+        ]
+    },
+    "reward": {
+        "gold": 10,
+        "quest": "followup2"
+    }
+}

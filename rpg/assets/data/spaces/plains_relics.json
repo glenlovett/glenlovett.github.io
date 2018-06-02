@@ -1,5 +1,8 @@
 {
     "description":"Some old weathered obelisks sticking up from the grass.",
-    "color":4278222848,
-    "image":"plains_relics.png"
+    "color":[61, 111, 67],
+    "image":"plains_relics.png",
+    "obscuresLeft":true,
+    "obscuresRight":true,
+    "blockedRight":true
 }

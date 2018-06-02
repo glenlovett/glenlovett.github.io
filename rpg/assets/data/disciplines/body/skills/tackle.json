@@ -1,0 +1,11 @@
+{
+    "name":"tackle",
+    "effects":[
+        {
+            "type":"stun",
+            "magnitude":75,
+            "duration":2
+        }
+    ],
+    "description":"Attempt to knock your foe to the ground, stunning them for 2 turns. (75% chance to succeed.)"
+}

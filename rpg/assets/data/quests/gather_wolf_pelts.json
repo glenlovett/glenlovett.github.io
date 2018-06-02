@@ -1,0 +1,39 @@
+{
+    "name":"Gather them wolf pelts!",
+    "description": "Potion Man in the potion shop wants them wolf pelts. So go get them. Duh. Theres a couple walking around outside. So just kill em, and pick up their pelts. Bring 4 wolf pelts to the potion man.",
+    "toComplete": {
+        "items":
+        [
+            {
+                "name":"wolf_pelt",
+                "quantity": 4
+            }
+        ]
+    },
+    "satisfiedDialogue": {
+        "response":["I see you've got those wolf pelts.", "lemme at em."],
+        "options":
+        [
+            {
+                "option":"Nah, I'ma keep em.",
+                "response":["Suit yourself.."],
+                "result":"end"
+            },
+            {
+                "option":"Not at the moment, but I’d like to talk about other things",
+                "response":["Ok."],
+                "result":"talk"
+            },
+            {
+                "option":"Ok, here they are..",
+                "response":["Awesome. Thanks Bro. Here's your reward.", "Now go talk to my brother"],
+                "result":"completeQuest"
+            }
+        ]
+    },
+    "reward": {
+        "items": ["healing_potion", "healing_potion", "healing_potion", "healing_potion"],
+        "xp": 1,
+        "quest": "followup"
+    }
+}

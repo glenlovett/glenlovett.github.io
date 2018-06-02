@@ -1,6 +1,6 @@
 {
     "level":1,
     "name":"wolf",
-    "inventory":["healing_potion","healing_potion","rusty_sword"],
+    "inventory":["wolf_pelt","wolf_pelt"],
     "image":"wolf.png"
 }

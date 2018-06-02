@@ -1,7 +1,8 @@
 {
     "playerStartIndex":1,
-    "spaces":["plains","plains","plains","plains","town","town","plains","plains","plains"],
+    "spaces":["plains","plains_relics","plains","plains","town_rest","town","plains","plains","plains"],
     "enemies":[null,null,null,"wolf",null,null,null,"wolf",null],
     "subzones":[null,null,null,null,null,"potion_shop",null,null,"dusty_grotto"],
-    "items":[["healing_potion", "rusty_sword"],null,null,null,null,null,null,null,null]
+    "items":[["healing_potion", "rusty_sword"],null,null,null,null,null,null,null,null],
+    "npcs":["hidden_hermit",null,null,null,null,null,null,null,null]
 }

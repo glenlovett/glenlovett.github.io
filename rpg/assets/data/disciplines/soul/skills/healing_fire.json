@@ -1,0 +1,17 @@
+{
+    "name":"healing fire",
+    "beneficial":true,
+    "effects":[
+        {
+            "type":"hpUpPercent",
+            "magnitude":"10",
+            "duration":3
+        },
+        {
+            "type":"fireAura",
+            "magnitude":"5",
+            "duration":3
+        }
+    ],
+    "description":"Surround yourself in a swirling inferno of holy fire for 3 turns. Each turn heal 10% HP and damage any foes at your location for 5 fire damage."
+}

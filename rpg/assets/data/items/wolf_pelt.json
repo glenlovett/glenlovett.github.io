@@ -1,0 +1,8 @@
+{
+    "name":"wolf pelt",
+    "image":"wolf_pelt.png",
+    "type":"misc",
+    "description":"The furry pelt of a wild wolf",
+    "sellPrice":10,
+    "buyPrice":15
+}

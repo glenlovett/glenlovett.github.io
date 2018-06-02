@@ -4,6 +4,11 @@
     "type":"consumable",
     "description":"A bottle of healing stuff.",
     "effects": [
-        {"type":"hpup", "magnitude":2}
-    ]
+        {
+            "type": "hpUp",
+            "magnitude": 2
+        }
+    ],
+    "sellPrice":5,
+    "buyPrice":10
 }

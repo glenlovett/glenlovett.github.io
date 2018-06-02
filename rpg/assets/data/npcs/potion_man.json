@@ -1,6 +1,41 @@
 {
     "level":1,
     "name":"potion man",
-    "inventory":[],
-    "image":"potion_man.png"
+    "inventory":["healing_potion", "healing_potion", "healing_potion", "healing_potion", "healing_potion"],
+    "sells":["consumable"],
+    "image":"potion_man.png",
+    "dialogue":{
+        "response":["How can I help you?"],
+        "options":
+        [
+            {
+                "option":"You sell potions?",
+                "response":["Yep. Here they are."],
+                "result":"trade"
+            },
+            {
+                "option":"Bye",
+                "result":"end"
+            },
+            {
+                "option":"How are things?",
+                "hiddenByQuest":"Gather them wolf pelts!",
+                "response":["I need help."],
+                "options":
+                [
+                    {
+                        "option":"Why, whats wrong?",
+                        "response":["Blahblahblah...", "Oh I'm not done talking", "Go get me dem wolf pelts."],
+                        "result":"quest",
+                        "questID":"gather_wolf_pelts"
+                    },
+                    {
+                        "option":"Bye.",
+                        "response":["Fine, don't worry about it."],
+                        "result":"end"
+                    }
+                ]
+            }
+        ]
+    }
 }

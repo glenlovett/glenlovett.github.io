@@ -1,6 +1,6 @@
 {
     "description":"Yep, its a potion shop.",
-    "color":-425759341,
+    "color":[114, 75, 44],
     "safe":true,
     "rest":false,
     "image":"shop.png"
