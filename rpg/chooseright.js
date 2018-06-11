@@ -46,23 +46,25 @@ ApplicationMain.create = function() {
 	types.push("IMAGE");
 	urls.push("assets/images/spaces/shop.png");
 	types.push("IMAGE");
+	urls.push("assets/images/spaces/beach.png");
+	types.push("IMAGE");
 	urls.push("assets/images/spaces/plains.png");
 	types.push("IMAGE");
 	urls.push("assets/images/spaces/plains_relics.png");
+	types.push("IMAGE");
+	urls.push("assets/images/ui/tile_dark_weapon.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/armor.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/tile.png");
 	types.push("IMAGE");
-	urls.push("assets/images/ui/tile_skill.png");
-	types.push("IMAGE");
 	urls.push("assets/images/ui/currency.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/inventory.png");
 	types.push("IMAGE");
-	urls.push("assets/images/ui/misc.png");
+	urls.push("assets/images/ui/button_dark.png");
 	types.push("IMAGE");
-	urls.push("assets/images/ui/tile_misc.png");
+	urls.push("assets/images/ui/misc.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/consumable.png");
 	types.push("IMAGE");
@@ -70,7 +72,9 @@ ApplicationMain.create = function() {
 	types.push("IMAGE");
 	urls.push("assets/images/ui/chrome_flat_dark.png");
 	types.push("IMAGE");
-	urls.push("assets/images/ui/tile_armor.png");
+	urls.push("assets/images/ui/tile_selected.png");
+	types.push("IMAGE");
+	urls.push("assets/images/ui/tile_dark_armor.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/quest.png");
 	types.push("IMAGE");
@@ -80,11 +84,9 @@ ApplicationMain.create = function() {
 	types.push("IMAGE");
 	urls.push("assets/images/ui/weapon.png");
 	types.push("IMAGE");
-	urls.push("assets/images/ui/tile_consumable.png");
+	urls.push("assets/images/ui/tile_dark_filled.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/tab.png");
-	types.push("IMAGE");
-	urls.push("assets/images/ui/tile_weapon.png");
 	types.push("IMAGE");
 	urls.push("assets/images/ui/skill.png");
 	types.push("IMAGE");
@@ -135,6 +137,8 @@ ApplicationMain.create = function() {
 	urls.push("assets/data/disciplines/names.json");
 	types.push("TEXT");
 	urls.push("assets/data/spaces/town_rest.json");
+	types.push("TEXT");
+	urls.push("assets/data/spaces/beach.json");
 	types.push("TEXT");
 	urls.push("assets/data/spaces/town.json");
 	types.push("TEXT");
@@ -268,7 +272,7 @@ ApplicationMain.init = function() {
 	}
 };
 ApplicationMain.main = function() {
-	ApplicationMain.config = { build : "1980", company : "HaxeFlixel", file : "chooseright", fps : 60, name : "Choose Right", orientation : "", packageName : "com.protosolar.chooseright", version : "0.0.1", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : false, height : 640, parameters : "{}", resizable : false, stencilBuffer : true, title : "Choose Right", vsync : false, width : 360, x : null, y : null}]};
+	ApplicationMain.config = { build : "2303", company : "HaxeFlixel", file : "chooseright", fps : 60, name : "Choose Right", orientation : "", packageName : "com.protosolar.chooseright", version : "0.0.1", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : false, height : 640, parameters : "{}", resizable : false, stencilBuffer : true, title : "Choose Right", vsync : false, width : 360, x : null, y : null}]};
 };
 ApplicationMain.start = function() {
 	var hasMain = false;
@@ -2578,7 +2582,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this21.h[id] = value10;
 	}
-	id = "assets/images/spaces/plains.png";
+	id = "assets/images/spaces/beach.png";
 	var _this22 = this.path;
 	if(__map_reserved[id] != null) {
 		_this22.setReserved(id,id);
@@ -2592,7 +2596,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this23.h[id] = value11;
 	}
-	id = "assets/images/spaces/plains_relics.png";
+	id = "assets/images/spaces/plains.png";
 	var _this24 = this.path;
 	if(__map_reserved[id] != null) {
 		_this24.setReserved(id,id);
@@ -2606,7 +2610,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this25.h[id] = value12;
 	}
-	id = "assets/images/ui/armor.png";
+	id = "assets/images/spaces/plains_relics.png";
 	var _this26 = this.path;
 	if(__map_reserved[id] != null) {
 		_this26.setReserved(id,id);
@@ -2620,7 +2624,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this27.h[id] = value13;
 	}
-	id = "assets/images/ui/tile.png";
+	id = "assets/images/ui/tile_dark_weapon.png";
 	var _this28 = this.path;
 	if(__map_reserved[id] != null) {
 		_this28.setReserved(id,id);
@@ -2634,7 +2638,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this29.h[id] = value14;
 	}
-	id = "assets/images/ui/tile_skill.png";
+	id = "assets/images/ui/armor.png";
 	var _this30 = this.path;
 	if(__map_reserved[id] != null) {
 		_this30.setReserved(id,id);
@@ -2648,7 +2652,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this31.h[id] = value15;
 	}
-	id = "assets/images/ui/currency.png";
+	id = "assets/images/ui/tile.png";
 	var _this32 = this.path;
 	if(__map_reserved[id] != null) {
 		_this32.setReserved(id,id);
@@ -2662,7 +2666,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this33.h[id] = value16;
 	}
-	id = "assets/images/ui/inventory.png";
+	id = "assets/images/ui/currency.png";
 	var _this34 = this.path;
 	if(__map_reserved[id] != null) {
 		_this34.setReserved(id,id);
@@ -2676,7 +2680,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this35.h[id] = value17;
 	}
-	id = "assets/images/ui/misc.png";
+	id = "assets/images/ui/inventory.png";
 	var _this36 = this.path;
 	if(__map_reserved[id] != null) {
 		_this36.setReserved(id,id);
@@ -2690,7 +2694,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this37.h[id] = value18;
 	}
-	id = "assets/images/ui/tile_misc.png";
+	id = "assets/images/ui/button_dark.png";
 	var _this38 = this.path;
 	if(__map_reserved[id] != null) {
 		_this38.setReserved(id,id);
@@ -2704,7 +2708,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this39.h[id] = value19;
 	}
-	id = "assets/images/ui/consumable.png";
+	id = "assets/images/ui/misc.png";
 	var _this40 = this.path;
 	if(__map_reserved[id] != null) {
 		_this40.setReserved(id,id);
@@ -2718,7 +2722,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this41.h[id] = value20;
 	}
-	id = "assets/images/ui/chrome_flat.png";
+	id = "assets/images/ui/consumable.png";
 	var _this42 = this.path;
 	if(__map_reserved[id] != null) {
 		_this42.setReserved(id,id);
@@ -2732,7 +2736,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this43.h[id] = value21;
 	}
-	id = "assets/images/ui/chrome_flat_dark.png";
+	id = "assets/images/ui/chrome_flat.png";
 	var _this44 = this.path;
 	if(__map_reserved[id] != null) {
 		_this44.setReserved(id,id);
@@ -2746,7 +2750,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this45.h[id] = value22;
 	}
-	id = "assets/images/ui/tile_armor.png";
+	id = "assets/images/ui/chrome_flat_dark.png";
 	var _this46 = this.path;
 	if(__map_reserved[id] != null) {
 		_this46.setReserved(id,id);
@@ -2760,7 +2764,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this47.h[id] = value23;
 	}
-	id = "assets/images/ui/quest.png";
+	id = "assets/images/ui/tile_selected.png";
 	var _this48 = this.path;
 	if(__map_reserved[id] != null) {
 		_this48.setReserved(id,id);
@@ -2774,7 +2778,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this49.h[id] = value24;
 	}
-	id = "assets/images/ui/tile_dark.png";
+	id = "assets/images/ui/tile_dark_armor.png";
 	var _this50 = this.path;
 	if(__map_reserved[id] != null) {
 		_this50.setReserved(id,id);
@@ -2788,7 +2792,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this51.h[id] = value25;
 	}
-	id = "assets/images/ui/tab_back.png";
+	id = "assets/images/ui/quest.png";
 	var _this52 = this.path;
 	if(__map_reserved[id] != null) {
 		_this52.setReserved(id,id);
@@ -2802,7 +2806,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this53.h[id] = value26;
 	}
-	id = "assets/images/ui/weapon.png";
+	id = "assets/images/ui/tile_dark.png";
 	var _this54 = this.path;
 	if(__map_reserved[id] != null) {
 		_this54.setReserved(id,id);
@@ -2816,7 +2820,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this55.h[id] = value27;
 	}
-	id = "assets/images/ui/tile_consumable.png";
+	id = "assets/images/ui/tab_back.png";
 	var _this56 = this.path;
 	if(__map_reserved[id] != null) {
 		_this56.setReserved(id,id);
@@ -2830,7 +2834,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this57.h[id] = value28;
 	}
-	id = "assets/images/ui/tab.png";
+	id = "assets/images/ui/weapon.png";
 	var _this58 = this.path;
 	if(__map_reserved[id] != null) {
 		_this58.setReserved(id,id);
@@ -2844,7 +2848,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this59.h[id] = value29;
 	}
-	id = "assets/images/ui/tile_weapon.png";
+	id = "assets/images/ui/tile_dark_filled.png";
 	var _this60 = this.path;
 	if(__map_reserved[id] != null) {
 		_this60.setReserved(id,id);
@@ -2858,7 +2862,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this61.h[id] = value30;
 	}
-	id = "assets/images/ui/skill.png";
+	id = "assets/images/ui/tab.png";
 	var _this62 = this.path;
 	if(__map_reserved[id] != null) {
 		_this62.setReserved(id,id);
@@ -2872,7 +2876,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this63.h[id] = value31;
 	}
-	id = "assets/images/enemies/practice_dummy.png";
+	id = "assets/images/ui/skill.png";
 	var _this64 = this.path;
 	if(__map_reserved[id] != null) {
 		_this64.setReserved(id,id);
@@ -2886,7 +2890,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this65.h[id] = value32;
 	}
-	id = "assets/images/enemies/wolf.png";
+	id = "assets/images/enemies/practice_dummy.png";
 	var _this66 = this.path;
 	if(__map_reserved[id] != null) {
 		_this66.setReserved(id,id);
@@ -2900,7 +2904,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this67.h[id] = value33;
 	}
-	id = "assets/images/items/weapon/sword.png";
+	id = "assets/images/enemies/wolf.png";
 	var _this68 = this.path;
 	if(__map_reserved[id] != null) {
 		_this68.setReserved(id,id);
@@ -2914,7 +2918,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this69.h[id] = value34;
 	}
-	id = "assets/images/items/misc/wolf_pelt.png";
+	id = "assets/images/items/weapon/sword.png";
 	var _this70 = this.path;
 	if(__map_reserved[id] != null) {
 		_this70.setReserved(id,id);
@@ -2928,7 +2932,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this71.h[id] = value35;
 	}
-	id = "assets/images/items/consumable/healing_potion.png";
+	id = "assets/images/items/misc/wolf_pelt.png";
 	var _this72 = this.path;
 	if(__map_reserved[id] != null) {
 		_this72.setReserved(id,id);
@@ -2942,7 +2946,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this73.h[id] = value36;
 	}
-	id = "assets/images/npcs/potion_man.png";
+	id = "assets/images/items/consumable/healing_potion.png";
 	var _this74 = this.path;
 	if(__map_reserved[id] != null) {
 		_this74.setReserved(id,id);
@@ -2956,7 +2960,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this75.h[id] = value37;
 	}
-	id = "assets/music/music-goes-here.txt";
+	id = "assets/images/npcs/potion_man.png";
 	var _this76 = this.path;
 	if(__map_reserved[id] != null) {
 		_this76.setReserved(id,id);
@@ -2964,13 +2968,13 @@ var DefaultAssetLibrary = function() {
 		_this76.h[id] = id;
 	}
 	var _this77 = this.type;
-	var value38 = "TEXT";
+	var value38 = "IMAGE";
 	if(__map_reserved[id] != null) {
 		_this77.setReserved(id,value38);
 	} else {
 		_this77.h[id] = value38;
 	}
-	id = "assets/data/maps/dusty_grotto.json";
+	id = "assets/music/music-goes-here.txt";
 	var _this78 = this.path;
 	if(__map_reserved[id] != null) {
 		_this78.setReserved(id,id);
@@ -2984,7 +2988,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this79.h[id] = value39;
 	}
-	id = "assets/data/maps/potion_shop.json";
+	id = "assets/data/maps/dusty_grotto.json";
 	var _this80 = this.path;
 	if(__map_reserved[id] != null) {
 		_this80.setReserved(id,id);
@@ -2998,7 +3002,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this81.h[id] = value40;
 	}
-	id = "assets/data/maps/overworld.json";
+	id = "assets/data/maps/potion_shop.json";
 	var _this82 = this.path;
 	if(__map_reserved[id] != null) {
 		_this82.setReserved(id,id);
@@ -3012,7 +3016,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this83.h[id] = value41;
 	}
-	id = "assets/data/disciplines/soul/soul_characteristics.json";
+	id = "assets/data/maps/overworld.json";
 	var _this84 = this.path;
 	if(__map_reserved[id] != null) {
 		_this84.setReserved(id,id);
@@ -3026,7 +3030,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this85.h[id] = value42;
 	}
-	id = "assets/data/disciplines/soul/skills/heal.json";
+	id = "assets/data/disciplines/soul/soul_characteristics.json";
 	var _this86 = this.path;
 	if(__map_reserved[id] != null) {
 		_this86.setReserved(id,id);
@@ -3040,7 +3044,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this87.h[id] = value43;
 	}
-	id = "assets/data/disciplines/soul/skills/healing_fire.json";
+	id = "assets/data/disciplines/soul/skills/heal.json";
 	var _this88 = this.path;
 	if(__map_reserved[id] != null) {
 		_this88.setReserved(id,id);
@@ -3054,7 +3058,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this89.h[id] = value44;
 	}
-	id = "assets/data/disciplines/soul/skills/righteous_strike.json";
+	id = "assets/data/disciplines/soul/skills/healing_fire.json";
 	var _this90 = this.path;
 	if(__map_reserved[id] != null) {
 		_this90.setReserved(id,id);
@@ -3068,7 +3072,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this91.h[id] = value45;
 	}
-	id = "assets/data/disciplines/mind/mind_characteristics.json";
+	id = "assets/data/disciplines/soul/skills/righteous_strike.json";
 	var _this92 = this.path;
 	if(__map_reserved[id] != null) {
 		_this92.setReserved(id,id);
@@ -3082,7 +3086,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this93.h[id] = value46;
 	}
-	id = "assets/data/disciplines/mind/skills/quick_attack.json";
+	id = "assets/data/disciplines/mind/mind_characteristics.json";
 	var _this94 = this.path;
 	if(__map_reserved[id] != null) {
 		_this94.setReserved(id,id);
@@ -3096,7 +3100,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this95.h[id] = value47;
 	}
-	id = "assets/data/disciplines/mind/skills/critical_strike.json";
+	id = "assets/data/disciplines/mind/skills/quick_attack.json";
 	var _this96 = this.path;
 	if(__map_reserved[id] != null) {
 		_this96.setReserved(id,id);
@@ -3110,7 +3114,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this97.h[id] = value48;
 	}
-	id = "assets/data/disciplines/body/body_characteristics.json";
+	id = "assets/data/disciplines/mind/skills/critical_strike.json";
 	var _this98 = this.path;
 	if(__map_reserved[id] != null) {
 		_this98.setReserved(id,id);
@@ -3124,7 +3128,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this99.h[id] = value49;
 	}
-	id = "assets/data/disciplines/body/skills/defensive_stance.json";
+	id = "assets/data/disciplines/body/body_characteristics.json";
 	var _this100 = this.path;
 	if(__map_reserved[id] != null) {
 		_this100.setReserved(id,id);
@@ -3138,7 +3142,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this101.h[id] = value50;
 	}
-	id = "assets/data/disciplines/body/skills/mindful_strike.json";
+	id = "assets/data/disciplines/body/skills/defensive_stance.json";
 	var _this102 = this.path;
 	if(__map_reserved[id] != null) {
 		_this102.setReserved(id,id);
@@ -3152,7 +3156,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this103.h[id] = value51;
 	}
-	id = "assets/data/disciplines/body/skills/power_attack.json";
+	id = "assets/data/disciplines/body/skills/mindful_strike.json";
 	var _this104 = this.path;
 	if(__map_reserved[id] != null) {
 		_this104.setReserved(id,id);
@@ -3166,7 +3170,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this105.h[id] = value52;
 	}
-	id = "assets/data/disciplines/body/skills/tackle.json";
+	id = "assets/data/disciplines/body/skills/power_attack.json";
 	var _this106 = this.path;
 	if(__map_reserved[id] != null) {
 		_this106.setReserved(id,id);
@@ -3180,7 +3184,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this107.h[id] = value53;
 	}
-	id = "assets/data/disciplines/names.json";
+	id = "assets/data/disciplines/body/skills/tackle.json";
 	var _this108 = this.path;
 	if(__map_reserved[id] != null) {
 		_this108.setReserved(id,id);
@@ -3194,7 +3198,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this109.h[id] = value54;
 	}
-	id = "assets/data/spaces/town_rest.json";
+	id = "assets/data/disciplines/names.json";
 	var _this110 = this.path;
 	if(__map_reserved[id] != null) {
 		_this110.setReserved(id,id);
@@ -3208,7 +3212,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this111.h[id] = value55;
 	}
-	id = "assets/data/spaces/town.json";
+	id = "assets/data/spaces/town_rest.json";
 	var _this112 = this.path;
 	if(__map_reserved[id] != null) {
 		_this112.setReserved(id,id);
@@ -3222,7 +3226,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this113.h[id] = value56;
 	}
-	id = "assets/data/spaces/shop.json";
+	id = "assets/data/spaces/beach.json";
 	var _this114 = this.path;
 	if(__map_reserved[id] != null) {
 		_this114.setReserved(id,id);
@@ -3236,7 +3240,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this115.h[id] = value57;
 	}
-	id = "assets/data/spaces/plains.json";
+	id = "assets/data/spaces/town.json";
 	var _this116 = this.path;
 	if(__map_reserved[id] != null) {
 		_this116.setReserved(id,id);
@@ -3250,7 +3254,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this117.h[id] = value58;
 	}
-	id = "assets/data/spaces/plains_relics.json";
+	id = "assets/data/spaces/shop.json";
 	var _this118 = this.path;
 	if(__map_reserved[id] != null) {
 		_this118.setReserved(id,id);
@@ -3264,7 +3268,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this119.h[id] = value59;
 	}
-	id = "assets/data/player/player.json";
+	id = "assets/data/spaces/plains.json";
 	var _this120 = this.path;
 	if(__map_reserved[id] != null) {
 		_this120.setReserved(id,id);
@@ -3278,7 +3282,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this121.h[id] = value60;
 	}
-	id = "assets/data/enemies/wolf.json";
+	id = "assets/data/spaces/plains_relics.json";
 	var _this122 = this.path;
 	if(__map_reserved[id] != null) {
 		_this122.setReserved(id,id);
@@ -3292,7 +3296,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this123.h[id] = value61;
 	}
-	id = "assets/data/enemies/practice_dummy.json";
+	id = "assets/data/player/player.json";
 	var _this124 = this.path;
 	if(__map_reserved[id] != null) {
 		_this124.setReserved(id,id);
@@ -3306,7 +3310,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this125.h[id] = value62;
 	}
-	id = "assets/data/quests/gather_wolf_pelts.json";
+	id = "assets/data/enemies/wolf.json";
 	var _this126 = this.path;
 	if(__map_reserved[id] != null) {
 		_this126.setReserved(id,id);
@@ -3320,7 +3324,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this127.h[id] = value63;
 	}
-	id = "assets/data/quests/followup2.json";
+	id = "assets/data/enemies/practice_dummy.json";
 	var _this128 = this.path;
 	if(__map_reserved[id] != null) {
 		_this128.setReserved(id,id);
@@ -3334,7 +3338,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this129.h[id] = value64;
 	}
-	id = "assets/data/quests/followup.json";
+	id = "assets/data/quests/gather_wolf_pelts.json";
 	var _this130 = this.path;
 	if(__map_reserved[id] != null) {
 		_this130.setReserved(id,id);
@@ -3348,7 +3352,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this131.h[id] = value65;
 	}
-	id = "assets/data/items/rusty_sword.json";
+	id = "assets/data/quests/followup2.json";
 	var _this132 = this.path;
 	if(__map_reserved[id] != null) {
 		_this132.setReserved(id,id);
@@ -3362,7 +3366,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this133.h[id] = value66;
 	}
-	id = "assets/data/items/wolf_pelt.json";
+	id = "assets/data/quests/followup.json";
 	var _this134 = this.path;
 	if(__map_reserved[id] != null) {
 		_this134.setReserved(id,id);
@@ -3376,7 +3380,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this135.h[id] = value67;
 	}
-	id = "assets/data/items/healing_potion.json";
+	id = "assets/data/items/rusty_sword.json";
 	var _this136 = this.path;
 	if(__map_reserved[id] != null) {
 		_this136.setReserved(id,id);
@@ -3390,7 +3394,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this137.h[id] = value68;
 	}
-	id = "assets/data/npcs/potion_man.json";
+	id = "assets/data/items/wolf_pelt.json";
 	var _this138 = this.path;
 	if(__map_reserved[id] != null) {
 		_this138.setReserved(id,id);
@@ -3404,7 +3408,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this139.h[id] = value69;
 	}
-	id = "assets/data/npcs/hidden_hermit.json";
+	id = "assets/data/items/healing_potion.json";
 	var _this140 = this.path;
 	if(__map_reserved[id] != null) {
 		_this140.setReserved(id,id);
@@ -3418,7 +3422,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this141.h[id] = value70;
 	}
-	id = "assets/sounds/sounds-go-here.txt";
+	id = "assets/data/npcs/potion_man.json";
 	var _this142 = this.path;
 	if(__map_reserved[id] != null) {
 		_this142.setReserved(id,id);
@@ -3432,7 +3436,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this143.h[id] = value71;
 	}
-	id = "flixel/sounds/flixel.ogg";
+	id = "assets/data/npcs/hidden_hermit.json";
 	var _this144 = this.path;
 	if(__map_reserved[id] != null) {
 		_this144.setReserved(id,id);
@@ -3440,13 +3444,13 @@ var DefaultAssetLibrary = function() {
 		_this144.h[id] = id;
 	}
 	var _this145 = this.type;
-	var value72 = "SOUND";
+	var value72 = "TEXT";
 	if(__map_reserved[id] != null) {
 		_this145.setReserved(id,value72);
 	} else {
 		_this145.h[id] = value72;
 	}
-	id = "flixel/sounds/beep.ogg";
+	id = "assets/sounds/sounds-go-here.txt";
 	var _this146 = this.path;
 	if(__map_reserved[id] != null) {
 		_this146.setReserved(id,id);
@@ -3454,71 +3458,71 @@ var DefaultAssetLibrary = function() {
 		_this146.h[id] = id;
 	}
 	var _this147 = this.type;
-	var value73 = "SOUND";
+	var value73 = "TEXT";
 	if(__map_reserved[id] != null) {
 		_this147.setReserved(id,value73);
 	} else {
 		_this147.h[id] = value73;
 	}
-	id = "flixel/fonts/nokiafc22.ttf";
-	var _this148 = this.className;
-	var value74 = _$_$ASSET_$_$flixel_$fonts_$nokiafc22_$ttf;
+	id = "flixel/sounds/flixel.ogg";
+	var _this148 = this.path;
 	if(__map_reserved[id] != null) {
-		_this148.setReserved(id,value74);
+		_this148.setReserved(id,id);
 	} else {
-		_this148.h[id] = value74;
+		_this148.h[id] = id;
 	}
 	var _this149 = this.type;
-	var value75 = "FONT";
+	var value74 = "SOUND";
 	if(__map_reserved[id] != null) {
-		_this149.setReserved(id,value75);
+		_this149.setReserved(id,value74);
 	} else {
-		_this149.h[id] = value75;
+		_this149.h[id] = value74;
 	}
-	id = "flixel/fonts/monsterrat.ttf";
-	var _this150 = this.className;
-	var value76 = _$_$ASSET_$_$flixel_$fonts_$monsterrat_$ttf;
+	id = "flixel/sounds/beep.ogg";
+	var _this150 = this.path;
 	if(__map_reserved[id] != null) {
-		_this150.setReserved(id,value76);
+		_this150.setReserved(id,id);
 	} else {
-		_this150.h[id] = value76;
+		_this150.h[id] = id;
 	}
 	var _this151 = this.type;
-	var value77 = "FONT";
+	var value75 = "SOUND";
 	if(__map_reserved[id] != null) {
-		_this151.setReserved(id,value77);
+		_this151.setReserved(id,value75);
 	} else {
-		_this151.h[id] = value77;
+		_this151.h[id] = value75;
 	}
-	id = "flixel/images/ui/button.png";
-	var _this152 = this.path;
+	id = "flixel/fonts/nokiafc22.ttf";
+	var _this152 = this.className;
+	var value76 = _$_$ASSET_$_$flixel_$fonts_$nokiafc22_$ttf;
 	if(__map_reserved[id] != null) {
-		_this152.setReserved(id,id);
+		_this152.setReserved(id,value76);
 	} else {
-		_this152.h[id] = id;
+		_this152.h[id] = value76;
 	}
 	var _this153 = this.type;
-	var value78 = "IMAGE";
+	var value77 = "FONT";
 	if(__map_reserved[id] != null) {
-		_this153.setReserved(id,value78);
+		_this153.setReserved(id,value77);
 	} else {
-		_this153.h[id] = value78;
+		_this153.h[id] = value77;
 	}
-	id = "flixel/images/logo/default.png";
-	var _this154 = this.path;
+	id = "flixel/fonts/monsterrat.ttf";
+	var _this154 = this.className;
+	var value78 = _$_$ASSET_$_$flixel_$fonts_$monsterrat_$ttf;
 	if(__map_reserved[id] != null) {
-		_this154.setReserved(id,id);
+		_this154.setReserved(id,value78);
 	} else {
-		_this154.h[id] = id;
+		_this154.h[id] = value78;
 	}
 	var _this155 = this.type;
-	var value79 = "IMAGE";
+	var value79 = "FONT";
 	if(__map_reserved[id] != null) {
 		_this155.setReserved(id,value79);
 	} else {
 		_this155.h[id] = value79;
 	}
-	id = "flixel/flixel-ui/img/finger_small.png";
+	id = "flixel/images/ui/button.png";
 	var _this156 = this.path;
 	if(__map_reserved[id] != null) {
 		_this156.setReserved(id,id);
@@ -3532,7 +3536,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this157.h[id] = value80;
 	}
-	id = "flixel/flixel-ui/img/dropdown_mark.png";
+	id = "flixel/images/logo/default.png";
 	var _this158 = this.path;
 	if(__map_reserved[id] != null) {
 		_this158.setReserved(id,id);
@@ -3546,7 +3550,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this159.h[id] = value81;
 	}
-	id = "flixel/flixel-ui/img/button_arrow_right.png";
+	id = "flixel/flixel-ui/img/finger_small.png";
 	var _this160 = this.path;
 	if(__map_reserved[id] != null) {
 		_this160.setReserved(id,id);
@@ -3560,7 +3564,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this161.h[id] = value82;
 	}
-	id = "flixel/flixel-ui/img/plus_mark.png";
+	id = "flixel/flixel-ui/img/dropdown_mark.png";
 	var _this162 = this.path;
 	if(__map_reserved[id] != null) {
 		_this162.setReserved(id,id);
@@ -3574,7 +3578,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this163.h[id] = value83;
 	}
-	id = "flixel/flixel-ui/img/button_arrow_left.png";
+	id = "flixel/flixel-ui/img/button_arrow_right.png";
 	var _this164 = this.path;
 	if(__map_reserved[id] != null) {
 		_this164.setReserved(id,id);
@@ -3588,7 +3592,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this165.h[id] = value84;
 	}
-	id = "flixel/flixel-ui/img/check_mark.png";
+	id = "flixel/flixel-ui/img/plus_mark.png";
 	var _this166 = this.path;
 	if(__map_reserved[id] != null) {
 		_this166.setReserved(id,id);
@@ -3602,7 +3606,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this167.h[id] = value85;
 	}
-	id = "flixel/flixel-ui/img/chrome.png";
+	id = "flixel/flixel-ui/img/button_arrow_left.png";
 	var _this168 = this.path;
 	if(__map_reserved[id] != null) {
 		_this168.setReserved(id,id);
@@ -3616,7 +3620,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this169.h[id] = value86;
 	}
-	id = "flixel/flixel-ui/img/button_toggle.png";
+	id = "flixel/flixel-ui/img/check_mark.png";
 	var _this170 = this.path;
 	if(__map_reserved[id] != null) {
 		_this170.setReserved(id,id);
@@ -3630,7 +3634,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this171.h[id] = value87;
 	}
-	id = "flixel/flixel-ui/img/tooltip_arrow.png";
+	id = "flixel/flixel-ui/img/chrome.png";
 	var _this172 = this.path;
 	if(__map_reserved[id] != null) {
 		_this172.setReserved(id,id);
@@ -3644,7 +3648,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this173.h[id] = value88;
 	}
-	id = "flixel/flixel-ui/img/swatch.png";
+	id = "flixel/flixel-ui/img/button_toggle.png";
 	var _this174 = this.path;
 	if(__map_reserved[id] != null) {
 		_this174.setReserved(id,id);
@@ -3658,7 +3662,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this175.h[id] = value89;
 	}
-	id = "flixel/flixel-ui/img/box.png";
+	id = "flixel/flixel-ui/img/tooltip_arrow.png";
 	var _this176 = this.path;
 	if(__map_reserved[id] != null) {
 		_this176.setReserved(id,id);
@@ -3672,7 +3676,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this177.h[id] = value90;
 	}
-	id = "flixel/flixel-ui/img/chrome_flat.png";
+	id = "flixel/flixel-ui/img/swatch.png";
 	var _this178 = this.path;
 	if(__map_reserved[id] != null) {
 		_this178.setReserved(id,id);
@@ -3686,7 +3690,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this179.h[id] = value91;
 	}
-	id = "flixel/flixel-ui/img/finger_big.png";
+	id = "flixel/flixel-ui/img/box.png";
 	var _this180 = this.path;
 	if(__map_reserved[id] != null) {
 		_this180.setReserved(id,id);
@@ -3700,7 +3704,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this181.h[id] = value92;
 	}
-	id = "flixel/flixel-ui/img/button.png";
+	id = "flixel/flixel-ui/img/chrome_flat.png";
 	var _this182 = this.path;
 	if(__map_reserved[id] != null) {
 		_this182.setReserved(id,id);
@@ -3714,7 +3718,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this183.h[id] = value93;
 	}
-	id = "flixel/flixel-ui/img/hilight.png";
+	id = "flixel/flixel-ui/img/finger_big.png";
 	var _this184 = this.path;
 	if(__map_reserved[id] != null) {
 		_this184.setReserved(id,id);
@@ -3728,7 +3732,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this185.h[id] = value94;
 	}
-	id = "flixel/flixel-ui/img/minus_mark.png";
+	id = "flixel/flixel-ui/img/button.png";
 	var _this186 = this.path;
 	if(__map_reserved[id] != null) {
 		_this186.setReserved(id,id);
@@ -3742,7 +3746,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this187.h[id] = value95;
 	}
-	id = "flixel/flixel-ui/img/button_arrow_down.png";
+	id = "flixel/flixel-ui/img/hilight.png";
 	var _this188 = this.path;
 	if(__map_reserved[id] != null) {
 		_this188.setReserved(id,id);
@@ -3756,7 +3760,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this189.h[id] = value96;
 	}
-	id = "flixel/flixel-ui/img/tab_back.png";
+	id = "flixel/flixel-ui/img/minus_mark.png";
 	var _this190 = this.path;
 	if(__map_reserved[id] != null) {
 		_this190.setReserved(id,id);
@@ -3770,7 +3774,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this191.h[id] = value97;
 	}
-	id = "flixel/flixel-ui/img/button_thin.png";
+	id = "flixel/flixel-ui/img/button_arrow_down.png";
 	var _this192 = this.path;
 	if(__map_reserved[id] != null) {
 		_this192.setReserved(id,id);
@@ -3784,7 +3788,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this193.h[id] = value98;
 	}
-	id = "flixel/flixel-ui/img/chrome_inset.png";
+	id = "flixel/flixel-ui/img/tab_back.png";
 	var _this194 = this.path;
 	if(__map_reserved[id] != null) {
 		_this194.setReserved(id,id);
@@ -3798,7 +3802,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this195.h[id] = value99;
 	}
-	id = "flixel/flixel-ui/img/tab.png";
+	id = "flixel/flixel-ui/img/button_thin.png";
 	var _this196 = this.path;
 	if(__map_reserved[id] != null) {
 		_this196.setReserved(id,id);
@@ -3812,7 +3816,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this197.h[id] = value100;
 	}
-	id = "flixel/flixel-ui/img/button_arrow_up.png";
+	id = "flixel/flixel-ui/img/chrome_inset.png";
 	var _this198 = this.path;
 	if(__map_reserved[id] != null) {
 		_this198.setReserved(id,id);
@@ -3826,7 +3830,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this199.h[id] = value101;
 	}
-	id = "flixel/flixel-ui/img/invis.png";
+	id = "flixel/flixel-ui/img/tab.png";
 	var _this200 = this.path;
 	if(__map_reserved[id] != null) {
 		_this200.setReserved(id,id);
@@ -3840,7 +3844,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this201.h[id] = value102;
 	}
-	id = "flixel/flixel-ui/img/chrome_light.png";
+	id = "flixel/flixel-ui/img/button_arrow_up.png";
 	var _this202 = this.path;
 	if(__map_reserved[id] != null) {
 		_this202.setReserved(id,id);
@@ -3854,7 +3858,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this203.h[id] = value103;
 	}
-	id = "flixel/flixel-ui/img/radio_dot.png";
+	id = "flixel/flixel-ui/img/invis.png";
 	var _this204 = this.path;
 	if(__map_reserved[id] != null) {
 		_this204.setReserved(id,id);
@@ -3868,7 +3872,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this205.h[id] = value104;
 	}
-	id = "flixel/flixel-ui/img/check_box.png";
+	id = "flixel/flixel-ui/img/chrome_light.png";
 	var _this206 = this.path;
 	if(__map_reserved[id] != null) {
 		_this206.setReserved(id,id);
@@ -3882,7 +3886,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this207.h[id] = value105;
 	}
-	id = "flixel/flixel-ui/img/radio.png";
+	id = "flixel/flixel-ui/img/radio_dot.png";
 	var _this208 = this.path;
 	if(__map_reserved[id] != null) {
 		_this208.setReserved(id,id);
@@ -3896,7 +3900,7 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this209.h[id] = value106;
 	}
-	id = "flixel/flixel-ui/xml/default_popup.xml";
+	id = "flixel/flixel-ui/img/check_box.png";
 	var _this210 = this.path;
 	if(__map_reserved[id] != null) {
 		_this210.setReserved(id,id);
@@ -3904,13 +3908,13 @@ var DefaultAssetLibrary = function() {
 		_this210.h[id] = id;
 	}
 	var _this211 = this.type;
-	var value107 = "TEXT";
+	var value107 = "IMAGE";
 	if(__map_reserved[id] != null) {
 		_this211.setReserved(id,value107);
 	} else {
 		_this211.h[id] = value107;
 	}
-	id = "flixel/flixel-ui/xml/defaults.xml";
+	id = "flixel/flixel-ui/img/radio.png";
 	var _this212 = this.path;
 	if(__map_reserved[id] != null) {
 		_this212.setReserved(id,id);
@@ -3918,13 +3922,13 @@ var DefaultAssetLibrary = function() {
 		_this212.h[id] = id;
 	}
 	var _this213 = this.type;
-	var value108 = "TEXT";
+	var value108 = "IMAGE";
 	if(__map_reserved[id] != null) {
 		_this213.setReserved(id,value108);
 	} else {
 		_this213.h[id] = value108;
 	}
-	id = "flixel/flixel-ui/xml/default_loading_screen.xml";
+	id = "flixel/flixel-ui/xml/default_popup.xml";
 	var _this214 = this.path;
 	if(__map_reserved[id] != null) {
 		_this214.setReserved(id,id);
@@ -3938,6 +3942,34 @@ var DefaultAssetLibrary = function() {
 	} else {
 		_this215.h[id] = value109;
 	}
+	id = "flixel/flixel-ui/xml/defaults.xml";
+	var _this216 = this.path;
+	if(__map_reserved[id] != null) {
+		_this216.setReserved(id,id);
+	} else {
+		_this216.h[id] = id;
+	}
+	var _this217 = this.type;
+	var value110 = "TEXT";
+	if(__map_reserved[id] != null) {
+		_this217.setReserved(id,value110);
+	} else {
+		_this217.h[id] = value110;
+	}
+	id = "flixel/flixel-ui/xml/default_loading_screen.xml";
+	var _this218 = this.path;
+	if(__map_reserved[id] != null) {
+		_this218.setReserved(id,id);
+	} else {
+		_this218.h[id] = id;
+	}
+	var _this219 = this.type;
+	var value111 = "TEXT";
+	if(__map_reserved[id] != null) {
+		_this219.setReserved(id,value111);
+	} else {
+		_this219.h[id] = value111;
+	}
 	var assetsPrefix = null;
 	if(ApplicationMain.config != null && Object.prototype.hasOwnProperty.call(ApplicationMain.config,"assetsPrefix")) {
 		assetsPrefix = ApplicationMain.config.assetsPrefix;
@@ -3947,13 +3979,13 @@ var DefaultAssetLibrary = function() {
 		while(k.hasNext()) {
 			var k1 = k.next();
 			var this1 = this.path;
-			var _this216 = this.path;
-			var value110 = assetsPrefix + (__map_reserved[k1] != null ? _this216.getReserved(k1) : _this216.h[k1]);
-			var _this217 = this1;
+			var _this220 = this.path;
+			var value112 = assetsPrefix + (__map_reserved[k1] != null ? _this220.getReserved(k1) : _this220.h[k1]);
+			var _this221 = this1;
 			if(__map_reserved[k1] != null) {
-				_this217.setReserved(k1,value110);
+				_this221.setReserved(k1,value112);
 			} else {
-				_this217.h[k1] = value110;
+				_this221.h[k1] = value112;
 			}
 		}
 	}
@@ -5553,6 +5585,19 @@ actors_Actor.prototype = {
 		if(skill.attack == true) {
 			this.attack(target,ui);
 		}
+	}
+	,canPickup: function(itemToPickup) {
+		var numberItemsOfType = 0;
+		var _g = 0;
+		var _g1 = this.inventory;
+		while(_g < _g1.length) {
+			var item = _g1[_g];
+			++_g;
+			if(item.type == itemToPickup.type) {
+				++numberItemsOfType;
+			}
+		}
+		return numberItemsOfType < 36;
 	}
 	,__class__: actors_Actor
 };
@@ -103739,7 +103784,7 @@ saves_Saves.prototype = {
 			var oldPosInZone = state.player == null ? -1 : state.player.positionInZone;
 			var loadedState = new states_PlayState();
 			loadedState.setPlayer(savedPlayer);
-			loadedState.setCurrentZone(savedCurrentZone,savedPlayer.positionInZone,oldPosInZone);
+			loadedState.setCurrentZone(savedCurrentZone,savedPlayer.positionInZone,oldPosInZone,true);
 			if(flixel_FlxG.game._state.switchTo(loadedState)) {
 				flixel_FlxG.game._requestedState = loadedState;
 			}
@@ -103813,6 +103858,16 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 		if(this.ui == null) {
 			this.ui = new ui_play_PlayStateUI(this,this.player,this.currentZone);
 		}
+		var color = flixel_util__$FlxColor_FlxColor_$Impl_$._new();
+		color &= -16711681;
+		color |= 2883584;
+		color &= -65281;
+		color |= 12544;
+		color &= -256;
+		color |= 57;
+		color &= 16777215;
+		color |= -16777216;
+		this.set_bgColor(color);
 		flixel_addons_ui_FlxUIState.prototype.create.call(this);
 	}
 	,update: function(elapsed) {
@@ -103853,7 +103908,10 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 		this.player.turnUsed = false;
 		flixel_addons_ui_FlxUIState.prototype.update.call(this,elapsed);
 	}
-	,setCurrentZone: function(zone,playerStartOverride,currentPositionOverride) {
+	,setCurrentZone: function(zone,playerStartOverride,currentPositionOverride,loadingGame) {
+		if(loadingGame == null) {
+			loadingGame = false;
+		}
 		if(currentPositionOverride == null) {
 			currentPositionOverride = -1;
 		}
@@ -103869,7 +103927,7 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 		this.currentZone.spaces[startIndex].player = this.player;
 		this.player.positionInZone = startIndex;
 		if(this.ui != null) {
-			this.ui.setZoneAndPlayer(zone,this.player);
+			this.ui.setZoneAndPlayer(zone,this.player,loadingGame);
 		}
 	}
 	,setPlayer: function(player) {
@@ -103889,8 +103947,8 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 		this.ui.updateSpaceImage();
 		this.ui.updateButtons();
 		this.ui.clearCombatText();
-		this.ui.unsetHiddenMiddleButton();
-		this.ui.unSetSelectedSkill();
+		this.ui.deselectSkill();
+		this.ui.deselectItemOnSpace();
 	}
 	,onMoveRightPressed: function() {
 		this.player.moveSpaces(1,this.currentZone);
@@ -103903,8 +103961,8 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 		this.ui.updateSpaceImage();
 		this.ui.updateButtons();
 		this.ui.clearCombatText();
-		this.ui.unsetHiddenMiddleButton();
-		this.ui.unSetSelectedSkill();
+		this.ui.deselectSkill();
+		this.ui.deselectItemOnSpace();
 	}
 	,onEnterPressed: function() {
 		var subZone = this.currentZone.subZones.h[this.player.positionInZone];
@@ -103912,8 +103970,6 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 			this.player.hasFreeMove = false;
 			this.setCurrentZone(subZone);
 		}
-		this.ui.unsetHiddenMiddleButton();
-		this.ui.unSetSelectedSkill();
 	}
 	,onExitPressed: function() {
 		var parentZone = this.currentZone.parentZone;
@@ -103922,8 +103978,6 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 			this.player.hasFreeMove = false;
 			this.setCurrentZone(parentZone,exitIndex);
 		}
-		this.ui.unsetHiddenMiddleButton();
-		this.ui.unSetSelectedSkill();
 	}
 	,onTalkPressed: function() {
 		var friendly = this.currentZone.getPlayerSpace().friendly;
@@ -103991,19 +104045,44 @@ states_PlayState.prototype = $extend(flixel_addons_ui_FlxUIState.prototype,{
 	,getCurrentSpace: function() {
 		return this.currentZone.getPlayerSpace();
 	}
+	,getTargetForSkill: function(actor,skill) {
+		var enemy = this.getCurrentSpace().enemy;
+		var target;
+		if(skill.beneficial) {
+			target = actor;
+		} else if(enemy == null) {
+			target = actor;
+		} else {
+			target = enemy;
+		}
+		return target;
+	}
 	,__class__: states_PlayState
 });
 var trade_TradeManager = function(player,actor,state) {
+	var _gthis = this;
 	state.ui.updateButtons();
+	var gameHeight = flixel_FlxG.height;
+	var gameWidth = flixel_FlxG.width;
+	var buttonsHeight = Math.floor(gameHeight / 5) - 42;
+	var buttonsY = Math.floor(gameHeight / 5) * 4 + 42;
+	var buttonsWidth = Math.floor(gameWidth / 3);
 	var playerToActorWindow = actor.getTradeTabs();
 	var playerToActorWindow1 = new ui_play_components_TradeWindow(player,actor,state,false,false,null,playerToActorWindow);
 	var actorToPlayerWindow = new ui_play_components_TradeWindow(actor,player,state,true,true,playerToActorWindow1);
 	playerToActorWindow1.setRecipiantWindow(actorToPlayerWindow);
 	var toggleBuySellButton;
 	var endTradeButton;
+	this.buying = true;
 	var toggleBuySell = function() {
 		playerToActorWindow1.toggle(state,false);
 		actorToPlayerWindow.toggle(state,false);
+		_gthis.buying = !_gthis.buying;
+		if(_gthis.buying) {
+			toggleBuySellButton.label.set_text("Switch to Selling");
+		} else {
+			toggleBuySellButton.label.set_text("Switch to Buying");
+		}
 	};
 	var endTrade = function() {
 		playerToActorWindow1.hideInventory(state);
@@ -104013,16 +104092,35 @@ var trade_TradeManager = function(player,actor,state) {
 		state.remove(toggleBuySellButton);
 		state.remove(endTradeButton);
 		state.ui.showInventoryToggle();
+		state.ui.enableSkills();
 	};
-	toggleBuySellButton = new flixel_addons_ui_FlxUIButton(0,0,"Buy/Sell",toggleBuySell);
-	endTradeButton = new flixel_addons_ui_FlxUIButton(0,22,"Cancel",endTrade);
+	toggleBuySellButton = new flixel_addons_ui_FlxUIButton(buttonsWidth * 2,buttonsY,"Switch to Selling",toggleBuySell);
+	endTradeButton = new flixel_addons_ui_FlxUIButton(0,buttonsY,"Cancel",endTrade);
+	toggleBuySellButton.resize(buttonsWidth,buttonsHeight);
+	endTradeButton.resize(buttonsWidth,buttonsHeight);
 	state.add(toggleBuySellButton);
 	state.add(endTradeButton);
 };
 $hxClasses["trade.TradeManager"] = trade_TradeManager;
 trade_TradeManager.__name__ = ["trade","TradeManager"];
 trade_TradeManager.prototype = {
-	__class__: trade_TradeManager
+	buying: null
+	,__class__: trade_TradeManager
+};
+var ui_UIUtils = function() { };
+$hxClasses["ui.UIUtils"] = ui_UIUtils;
+ui_UIUtils.__name__ = ["ui","UIUtils"];
+ui_UIUtils.boundedX = function(x,widthOfItem) {
+	if(widthOfItem == null) {
+		widthOfItem = 0;
+	}
+	return Math.floor(Math.min(Math.max(0,x + widthOfItem),flixel_FlxG.width)) - widthOfItem;
+};
+ui_UIUtils.boundedY = function(y,heightOfItem) {
+	if(heightOfItem == null) {
+		heightOfItem = 0;
+	}
+	return Math.floor(Math.min(Math.max(0,y + heightOfItem),flixel_FlxG.height)) - heightOfItem;
 };
 var ui_play_PlayStateUI = function(state,player,zone) {
 	this.state = state;
@@ -104058,7 +104156,10 @@ ui_play_PlayStateUI.prototype = {
 	,buttons: null
 	,stateText: null
 	,skills: null
-	,setZoneAndPlayer: function(zone,player) {
+	,setZoneAndPlayer: function(zone,player,callUpdateInventory) {
+		if(callUpdateInventory == null) {
+			callUpdateInventory = false;
+		}
 		this.zone = zone;
 		this.player = player;
 		this.updateMiniMap();
@@ -104069,9 +104170,14 @@ ui_play_PlayStateUI.prototype = {
 		this.clearCombatText();
 		this.updateButtons();
 		this.updateStateText();
-		this.updateInventory(this.player);
-		this.hideInventory();
+		if(callUpdateInventory) {
+			this.updateInventory(this.player);
+		}
+		if(this.inventory.visible) {
+			this.hideInventory();
+		}
 		this.updateSkills();
+		this.enableSkills();
 		this.inventoryToggle.show();
 	}
 	,updateMiniMap: function() {
@@ -104134,26 +104240,17 @@ ui_play_PlayStateUI.prototype = {
 			this.buttons.hideMoveRightButton();
 		}
 	}
-	,setSelectedSkill: function(actor,skill) {
-		var enemy = this.state.getCurrentSpace().enemy;
-		var target;
-		if(skill.beneficial) {
-			target = actor;
-		} else if(enemy == null) {
-			target = actor;
-		} else {
-			target = enemy;
-		}
-		this.buttons.setSkillToUse(actor,skill,target,this);
-	}
-	,unSetSelectedSkill: function() {
-		this.buttons.unSetSkillToUse();
-	}
-	,unsetHiddenMiddleButton: function() {
-		this.buttons.hiddenMiddleButton = null;
+	,deselectSkill: function() {
+		this.skills.unSetSkillToUse(this);
 	}
 	,hideButtons: function() {
 		this.buttons.set_visible(this.buttons.set_active(false));
+	}
+	,hideMiddleButton: function() {
+		this.buttons.hideMiddleButton();
+	}
+	,showMiddleButton: function() {
+		this.buttons.showMiddleButton();
 	}
 	,hideSpaceImage: function() {
 		this.spaceImage.set_visible(this.spaceImage.set_active(false));
@@ -104169,6 +104266,9 @@ ui_play_PlayStateUI.prototype = {
 	}
 	,hideInventory: function() {
 		this.inventory.hideInventory(this.state);
+	}
+	,addItemToInventory: function(actor,item) {
+		this.inventory.addItem(actor,this.state,item);
 	}
 	,showInventoryToggle: function() {
 		this.inventoryToggle.show();
@@ -104186,11 +104286,13 @@ ui_play_PlayStateUI.prototype = {
 		var onEnd = function() {
 			_gthis.state.remove(dialogue);
 			_gthis.state.ui.updateButtons();
+			_gthis.state.ui.enableSkills();
 			_gthis.inventoryToggle.show();
 		};
 		var onQuest = function(questID,giver) {
 			_gthis.state.remove(dialogue);
 			_gthis.state.ui.updateButtons();
+			_gthis.state.ui.enableSkills();
 			_gthis.inventoryToggle.show();
 			_gthis.player.addQuest(new quests_Quest(questID,giver.name));
 			_gthis.updateInventory(_gthis.player);
@@ -104204,6 +104306,15 @@ ui_play_PlayStateUI.prototype = {
 	}
 	,updateSkills: function() {
 		this.skills.refresh(this.state,this);
+	}
+	,deselectItemOnSpace: function() {
+		this.spaceImage.deselectItem();
+	}
+	,disableSkills: function() {
+		this.skills.disable();
+	}
+	,enableSkills: function() {
+		this.skills.enable();
 	}
 	,__class__: ui_play_PlayStateUI
 };
@@ -104238,8 +104349,6 @@ var ui_play_components_Buttons = function(state) {
 	this.add(this.talkButton);
 	this.add(this.runButton);
 	this.add(this.attackButton);
-	this.add(new flixel_addons_ui_FlxUIButton(0,buttonsY - 64,"Save Game",$bind(state,state.onSavePressed)));
-	this.add(new flixel_addons_ui_FlxUIButton(80,buttonsY - 64,"Load Game",$bind(state,state.onLoadPressed)));
 	state.add(this);
 };
 $hxClasses["ui.play.components.Buttons"] = ui_play_components_Buttons;
@@ -104254,10 +104363,6 @@ ui_play_components_Buttons.prototype = $extend(flixel_group_FlxTypedGroup.protot
 	,talkButton: null
 	,runButton: null
 	,attackButton: null
-	,useSkillButton: null
-	,skillToUse: null
-	,actorUsingSkill: null
-	,skillTarget: null
 	,hiddenMiddleButton: null
 	,showExploringButtons: function(show,playerOnRest,playerOnExit,playerOnEntrance,playerOnFriendly) {
 		this.moveLeftButton.set_visible(show);
@@ -104280,29 +104385,6 @@ ui_play_components_Buttons.prototype = $extend(flixel_group_FlxTypedGroup.protot
 		this.runButton.set_visible(this.attackButton.set_visible(show));
 		this.runButton.label.set_text("Run (" + runChance + "%)");
 	}
-	,setSkillToUse: function(actor,skill,target,ui1) {
-		var gameHeight = flixel_FlxG.height;
-		var gameWidth = flixel_FlxG.width;
-		var buttonsY = Math.floor(gameHeight / 5) * 4 + 42;
-		var buttonsWidth = Math.floor(gameWidth / 3);
-		var buttonsHeight = Math.floor(gameHeight / 5) - 42;
-		if(this.skillToUse == skill) {
-			this.unSetSkillToUse();
-		} else {
-			this.hideMiddleButton();
-			this.skillToUse = skill;
-			this.actorUsingSkill = actor;
-			this.skillTarget = target;
-			var f = $bind(this,this.useSkill);
-			var ui2 = ui1;
-			var tmp = function() {
-				f(ui2);
-			};
-			this.useSkillButton = new flixel_addons_ui_FlxUIButton(buttonsWidth,buttonsY,"Use " + skill.name,tmp);
-			this.useSkillButton.resize(buttonsWidth,buttonsHeight);
-			this.add(this.useSkillButton);
-		}
-	}
 	,hideMiddleButton: function() {
 		var buttonToHide = null;
 		if(this.talkButton.visible) {
@@ -104321,19 +104403,8 @@ ui_play_components_Buttons.prototype = $extend(flixel_group_FlxTypedGroup.protot
 	,showMiddleButton: function() {
 		if(this.hiddenMiddleButton != null) {
 			this.hiddenMiddleButton.set_visible(this.hiddenMiddleButton.set_active(true));
+			this.hiddenMiddleButton = null;
 		}
-	}
-	,useSkill: function(ui1) {
-		this.actorUsingSkill.useSkill(this.skillToUse,this.skillTarget,ui1);
-		this.unSetSkillToUse();
-	}
-	,unSetSkillToUse: function() {
-		this.skillToUse = null;
-		this.actorUsingSkill = null;
-		this.skillTarget = null;
-		this.remove(this.useSkillButton);
-		this.useSkillButton = null;
-		this.showMiddleButton();
 	}
 	,__class__: ui_play_components_Buttons
 });
@@ -104415,8 +104486,11 @@ var ui_play_components_UnsortedTabMenu = function(back_,tabs_,tab_names_and_labe
 			var tabAsButton = [tab];
 			tabAsButton[0].onUp.callback = (function(tabAsButton1) {
 				return function() {
+					var switchOccured = tabAsButton1[0].name != _gthis.get_selected_tab_id();
 					_gthis.showTabId(tabAsButton1[0].name);
-					postTabSwitch();
+					if(switchOccured) {
+						postTabSwitch();
+					}
 				};
 			})(tabAsButton);
 		}
@@ -104456,26 +104530,47 @@ var ui_play_components_Inventory = function(actor,state,tabsToShow) {
 	var tabMenuX = slotWidth + equippedSlotXPadding * 2 - 2;
 	var tabMenuWidth = flixel_FlxG.width - tabMenuX;
 	var tabMenuHeight = Math.floor(3 * flixel_FlxG.height / 5) - 20;
-	var buttonsHeight = Math.floor(gameHeight / 5);
-	var buttonsY = buttonsHeight * 4;
+	var buttonsHeight = Math.floor(gameHeight / 5) - 42;
+	var buttonsY = Math.floor(gameHeight / 5) * 4 + 42;
 	var buttonsWidth = Math.floor(gameWidth / 3);
 	var f = $bind(this,this.useSelectedItem);
 	var a1 = actor;
 	var a2 = state;
-	this.useButton = new flixel_addons_ui_FlxUIButton(0,buttonsY,"Use",function() {
+	this.useButton = new flixel_addons_ui_FlxUIButton(buttonsWidth,buttonsY,"Use",function() {
 		f(a1,a2);
 	});
-	var f1 = $bind(this,this.learnSelectedSkill);
+	var f1 = $bind(this,this.dropSelectedItem);
 	var a11 = actor;
 	var a21 = state;
-	this.learnSkillButton = new flixel_addons_ui_FlxUIButton(0,buttonsY,"Learn",function() {
+	this.dropButton = new flixel_addons_ui_FlxUIButton(0,buttonsY,"Drop",function() {
 		f1(a11,a21);
 	});
+	var f2 = $bind(this,this.learnSelectedSkill);
+	var a12 = actor;
+	var a22 = state;
+	this.learnSkillButton = new flixel_addons_ui_FlxUIButton(buttonsWidth,buttonsY,"Learn",function() {
+		f2(a12,a22);
+	});
 	this.useButton.resize(buttonsWidth,buttonsHeight);
+	this.dropButton.resize(buttonsWidth,buttonsHeight);
+	var tmp = this.useButton;
+	var tmp1 = this.dropButton;
+	var color = flixel_util__$FlxColor_FlxColor_$Impl_$._new();
+	color &= -16711681;
+	color |= 6160384;
+	color &= -65281;
+	color |= 28928;
+	color &= -256;
+	color |= 142;
+	color &= 16777215;
+	color |= -16777216;
+	tmp.set_color(tmp1.set_color(color));
+	this.useButton.label.set_color(this.dropButton.label.set_color(-1));
 	this.learnSkillButton.resize(buttonsWidth,buttonsHeight);
-	this.useButton.set_visible(this.useButton.set_active(false));
+	this.useButton.set_visible(this.useButton.set_active(this.dropButton.set_visible(this.dropButton.set_active(false))));
 	this.learnSkillButton.set_visible(this.learnSkillButton.set_active(false));
 	state.add(this.useButton);
+	state.add(this.dropButton);
 	state.add(this.learnSkillButton);
 	this.backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(0,0,gameWidth,backdropHeight));
 	var baseTabButton = new flixel_addons_ui_FlxUIButton(0,0,"");
@@ -104514,31 +104609,38 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 	tabMenu: null
 	,backdrop: null
 	,selectedItem: null
+	,selectedItemBorder: null
 	,selectedItemStats: null
 	,selectedSkill: null
 	,learnSkillButton: null
 	,selectedSkillStats: null
+	,selectedSkillBorder: null
 	,weaponTile: null
 	,armorTile: null
 	,weaponButton: null
 	,armorButton: null
 	,useButton: null
+	,dropButton: null
 	,goldText: null
 	,displayedDisciplineIndex: null
 	,disciplineName: null
 	,skillsGroup: null
 	,tabs: null
-	,updateInventory: function(actor,state,init) {
+	,updateInventory: function(actor,state,init,onlyItemsOfType) {
 		if(init == null) {
 			init = false;
 		}
 		var tabNames = this.getTabNames();
 		if(!init) {
-			var _g = 0;
-			while(_g < tabNames.length) {
-				var tabName = tabNames[_g];
-				++_g;
-				this.tabMenu.getTabGroup(tabName).group.clear();
+			if(onlyItemsOfType != null) {
+				this.tabMenu.getTabGroup(Std.string(onlyItemsOfType)).group.clear();
+			} else {
+				var _g = 0;
+				while(_g < tabNames.length) {
+					var tabName = tabNames[_g];
+					++_g;
+					this.tabMenu.getTabGroup(tabName).group.clear();
+				}
 			}
 			if(this.goldText != null) {
 				this.goldText.set_text("" + actor.gold);
@@ -104562,28 +104664,77 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 				this.add(new flixel_FlxSprite(5,height,"assets/images/ui/currency.png"));
 			}
 		}
-		var _g2 = 0;
-		var _g11 = actor.inventory;
-		while(_g2 < _g11.length) {
-			var item = _g11[_g2];
-			++_g2;
-			var tabGroup1 = this.tabMenu.getTabGroup(Std.string(item.type));
-			if(tabGroup1 != null) {
+		var itemButtonTemplate = new flixel_addons_ui_FlxUIButton(0,0,"",null,false,true);
+		itemButtonTemplate.resize(42,42);
+		if(onlyItemsOfType != null) {
+			var tabGroup1 = this.tabMenu.getTabGroup(Std.string(onlyItemsOfType));
+			var items1 = actor.inventory.filter(function(item) {
+				return item.type == onlyItemsOfType;
+			});
+			var _g2 = 0;
+			while(_g2 < items1.length) {
+				var item1 = items1[_g2];
+				++_g2;
 				var x = 10 + 50 * (tabGroup1.group.length % 6);
 				var y = 10 + 50 * Math.floor(tabGroup1.group.length / 6);
 				var itemButton = new flixel_addons_ui_FlxUIButton(x,y,null,(function(y1,x1,a2,a1,f) {
 					return function() {
 						f[0](a1[0],a2[0],x1[0],y1[0]);
 					};
-				})([y + 84],[x + 84],[state],[item],[$bind(this,this.itemClicked)]),false,true);
+				})([y + 40],[x + 50],[state],[item1],[$bind(this,this.itemClicked)]),false,true);
 				itemButton.resize(42,42);
-				itemButton.addIcon(new flixel_FlxSprite(0,0,"assets/images/items/" + Std.string(item.type) + "/" + item.imageName));
+				itemButton.addIcon(new flixel_FlxSprite(0,0,"assets/images/items/" + Std.string(item1.type) + "/" + item1.imageName));
 				tabGroup1.add(itemButton);
 			}
+		} else {
+			var _g3 = new haxe_ds_EnumValueMap();
+			_g3.set(items_ItemType.consumable,this.tabMenu.getTabGroup("consumable"));
+			_g3.set(items_ItemType.weapon,this.tabMenu.getTabGroup("weapon"));
+			_g3.set(items_ItemType.armor,this.tabMenu.getTabGroup("armor"));
+			_g3.set(items_ItemType.misc,this.tabMenu.getTabGroup("misc"));
+			var tabGroups = _g3;
+			var _g11 = 0;
+			var _g21 = actor.inventory;
+			while(_g11 < _g21.length) {
+				var item2 = _g21[_g11];
+				++_g11;
+				var tabGroup2 = tabGroups.get(item2.type);
+				var x2 = 10 + 50 * (tabGroup2.group.length % 6);
+				var y2 = 10 + 50 * Math.floor(tabGroup2.group.length / 6);
+				var itemButton1 = itemButtonTemplate.clone();
+				var tmp = (function(y3,x3,a21,a11,f1) {
+					return function() {
+						f1[0](a11[0],a21[0],x3[0],y3[0]);
+					};
+				})([y2 + 40],[x2 + 50],[state],[item2],[$bind(this,this.itemClicked)]);
+				itemButton1.onUp.callback = tmp;
+				itemButton1.set_x(x2);
+				itemButton1.set_y(y2);
+				itemButton1.addIcon(new flixel_FlxSprite(0,0,"assets/images/items/" + Std.string(item2.type) + "/" + item2.imageName));
+				tabGroup2.add(itemButton1);
+			}
+			this.initQuestMenu(actor);
+			this.initSkillsMenu(actor);
 		}
-		this.initQuestMenu(actor);
-		this.initSkillsMenu(actor);
-		this.tabMenu.showTabId(this.tabs[0].name);
+		if(init) {
+			this.tabMenu.showTabId(this.tabs[0].name);
+		}
+	}
+	,addItem: function(actor,state,item) {
+		var tabGroup = this.tabMenu.getTabGroup(Std.string(item.type));
+		var x = 10 + 50 * (tabGroup.group.length % 6);
+		var y = 10 + 50 * Math.floor(tabGroup.group.length / 6);
+		var f = $bind(this,this.itemClicked);
+		var a1 = item;
+		var a2 = state;
+		var x1 = x + 50;
+		var y1 = y + 40;
+		var itemButton = new flixel_addons_ui_FlxUIButton(x,y,null,function() {
+			f(a1,a2,x1,y1);
+		},false,true);
+		itemButton.resize(42,42);
+		itemButton.addIcon(new flixel_FlxSprite(0,0,"assets/images/items/" + Std.string(item.type) + "/" + item.imageName));
+		tabGroup.add(itemButton);
 	}
 	,toggle: function(state,showButtonsAfter) {
 		if(showButtonsAfter == null) {
@@ -104596,20 +104747,28 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			state.ui.hideButtons();
 			state.ui.hideSpaceImage();
 			state.ui.hideEnemyHealthBar();
+			state.ui.deselectItemOnSpace();
+			state.ui.deselectSkill();
+			state.ui.disableSkills();
 		} else if(showButtonsAfter) {
 			state.ui.updateButtons();
 			state.ui.showSpaceImage();
 			state.ui.showEnemyHealthBar();
+			state.ui.enableSkills();
+			state.ui.updateSpaceImage();
 		}
 		if(!this.visible) {
 			this.deSelectItem();
+			this.deSelectSkill();
 		}
 	}
 	,hideInventory: function(state) {
 		this.set_visible(this.set_active(false));
 		this.deSelectItem();
+		this.deSelectSkill();
 		state.ui.updateButtons();
 		state.ui.showSpaceImage();
+		state.ui.updateSpaceImage();
 		state.ui.showEnemyHealthBar();
 	}
 	,getTabNames: function() {
@@ -104652,7 +104811,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			this.add(this.weaponTile);
 			this.add(this.weaponButton);
 		} else {
-			this.weaponTile = new flixel_FlxSprite(5,52,"assets/images/ui/tile_weapon.png");
+			this.weaponTile = new flixel_FlxSprite(5,52,"assets/images/ui/tile_dark_weapon.png");
 			this.add(this.weaponTile);
 		}
 		if(actor.armor != null) {
@@ -104668,7 +104827,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			this.add(this.armorTile);
 			this.add(this.armorButton);
 		} else {
-			this.armorTile = new flixel_FlxSprite(5,99,"assets/images/ui/tile_armor.png");
+			this.armorTile = new flixel_FlxSprite(5,99,"assets/images/ui/tile_dark_armor.png");
 			this.add(this.armorTile);
 		}
 	}
@@ -104725,7 +104884,8 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 		var disciplines1 = disciplines_DisciplineList.instance.all;
 		var menuHeight = this.tabMenu.get_height() - 40;
 		var discipline = disciplines1[this.displayedDisciplineIndex];
-		this.disciplineName = new flixel_text_FlxText(this.tabMenu.get_width() / 2,0,this.tabMenu.get_width(),discipline.name);
+		this.disciplineName = new flixel_text_FlxText(0,5,this.tabMenu.get_width(),discipline.name,16);
+		this.disciplineName.set_alignment("center");
 		var f = $bind(this,this.showPreviousDiscipline);
 		var a1 = actor;
 		var backButton = new flixel_addons_ui_FlxUIButton(0,0,"<",function() {
@@ -104737,6 +104897,28 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			f1(a11);
 		};
 		var nextButton1 = new flixel_addons_ui_FlxUIButton(this.tabMenu.get_width() - 40,0,">",nextButton);
+		var color = flixel_util__$FlxColor_FlxColor_$Impl_$._new();
+		color &= -16711681;
+		color |= 6160384;
+		color &= -65281;
+		color |= 28928;
+		color &= -256;
+		color |= 142;
+		color &= 16777215;
+		color |= -16777216;
+		backButton.set_color(color);
+		var color1 = flixel_util__$FlxColor_FlxColor_$Impl_$._new();
+		color1 &= -16711681;
+		color1 |= 6160384;
+		color1 &= -65281;
+		color1 |= 28928;
+		color1 &= -256;
+		color1 |= 142;
+		color1 &= 16777215;
+		color1 |= -16777216;
+		nextButton1.set_color(color1);
+		backButton.label.set_color(-1);
+		nextButton1.label.set_color(-1);
 		backButton.resize(40,menuHeight);
 		nextButton1.resize(40,menuHeight);
 		if(this.skillsGroup != null) {
@@ -104773,6 +104955,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 	,deSelectSkill: function() {
 		this.selectedSkill = null;
 		if(this.selectedSkillStats != null) {
+			this.remove(this.selectedSkillBorder);
 			this.remove(this.selectedSkillStats);
 			this.learnSkillButton.set_visible(this.learnSkillButton.set_active(false));
 		}
@@ -104784,26 +104967,30 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 		var disciplines1 = disciplines_DisciplineList.instance.all;
 		var discipline = disciplines1[this.displayedDisciplineIndex];
 		var i = 0;
-		var tierYSpacing = menuHeight / (discipline.skillTiers.length + 1);
+		var tierYSpacing = Math.floor(menuHeight / (discipline.skillTiers.length + 1));
 		var _g = 0;
 		var _g1 = discipline.skillTiers;
 		while(_g < _g1.length) {
 			var skillTier = _g1[_g];
 			++_g;
 			var i2 = 0;
-			var tierXSpacing = menuWidth / (skillTier.skillDefs.length + 1);
+			var tierXSpacing = Math.floor(menuWidth / (skillTier.skillDefs.length + 1));
 			var _g2 = 0;
 			var _g3 = skillTier.skillDefs;
 			while(_g2 < _g3.length) {
 				var skillDef = _g3[_g2];
 				++_g2;
-				var skillButton = new flixel_addons_ui_FlxUIButton(tierXSpacing * (i2 + 1) - 21,tierYSpacing * (i + 1) - 21,"",(function(a2,a1,f) {
+				var skillX = tierXSpacing * (i2 + 1) - 21;
+				var skillY = tierYSpacing * (i + 1) - 21;
+				var skillBorder = new flixel_FlxSprite(skillX,skillY,"assets/images/ui/tile.png");
+				var skillButton = new flixel_addons_ui_FlxUIButton(skillX,skillY,"",(function(y,x,a2,a1,f) {
 					return function() {
-						f[0](a1[0],a2[0]);
+						f[0](a1[0],a2[0],x[0],y[0]);
 					};
-				})([actor],[skillDef.skill],[$bind(this,this.skillClicked)]));
+				})([skillY],[Math.floor(this.tabMenu.x) + skillX],[actor],[skillDef.skill],[$bind(this,this.skillClicked)]),false,true);
 				skillButton.resize(42,42);
 				skillButton.addIcon(new flixel_FlxSprite(0,0,"assets/images/skills/" + skillDef.id + ".png"));
+				this.skillsGroup.add(skillBorder);
 				this.skillsGroup.add(skillButton);
 				++i2;
 			}
@@ -104847,7 +105034,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			this.deSelectItem();
 		} else {
 			this.deSelectItem();
-			this.selectItem(item,false,x,y);
+			this.selectItem(item,false,x,y,state);
 		}
 	}
 	,equippedWeaponClicked: function(actor,state) {
@@ -104855,7 +105042,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			this.deSelectItem();
 		} else {
 			this.deSelectItem();
-			this.selectItem(actor.weapon,true);
+			this.selectItem(actor.weapon,true,Math.floor(this.weaponTile.x),Math.floor(this.weaponTile.y - this.tabMenu.y),state);
 		}
 	}
 	,equippedArmorClicked: function(actor,state) {
@@ -104863,7 +105050,7 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			this.deSelectItem();
 		} else {
 			this.deSelectItem();
-			this.selectItem(actor.armor,true);
+			this.selectItem(actor.armor,true,Math.floor(this.armorTile.x),Math.floor(this.armorTile.y - this.tabMenu.y),state);
 		}
 	}
 	,deSelectAll: function() {
@@ -104873,8 +105060,9 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 	,deSelectItem: function() {
 		this.selectedItem = null;
 		if(this.selectedItemStats != null) {
+			this.remove(this.selectedItemBorder);
 			this.remove(this.selectedItemStats);
-			this.useButton.set_visible(this.useButton.set_active(false));
+			this.useButton.set_visible(this.useButton.set_active(this.dropButton.set_visible(this.dropButton.set_active(false))));
 		}
 	}
 	,selectSkill: function(skill,actor,x,y) {
@@ -104885,11 +105073,13 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			x = 0;
 		}
 		this.selectedSkill = skill;
-		this.selectedSkillStats = new ui_play_components_SkillStats(skill,x,y);
+		this.selectedSkillBorder = new flixel_FlxSprite(x,y + 40,"assets/images/ui/tile_selected.png");
+		this.selectedSkillStats = new ui_play_components_SkillStats(skill,x,y + 82);
+		this.add(this.selectedSkillBorder);
 		this.add(this.selectedSkillStats);
 		this.learnSkillButton.set_visible(this.learnSkillButton.set_active(!actor.knowsSkill(skill)));
 	}
-	,selectItem: function(item,equipped,x,y) {
+	,selectItem: function(item,equipped,x,y,state) {
 		if(y == null) {
 			y = 0;
 		}
@@ -104900,9 +105090,17 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			equipped = false;
 		}
 		this.selectedItem = item;
-		this.selectedItemStats = new ui_play_components_ItemStats(item,x,y);
+		this.selectedItemBorder = new flixel_FlxSprite(x,y,"assets/images/ui/tile_selected.png");
+		this.selectedItemStats = new ui_play_components_ItemStats(item,x,y + 42);
+		this.add(this.selectedItemBorder);
 		this.add(this.selectedItemStats);
 		this.useButton.set_visible(this.useButton.set_active(true));
+		this.dropButton.set_visible(true);
+		if(state.getCurrentSpace().items.length >= 8) {
+			this.dropButton.set_active(false);
+		} else {
+			this.dropButton.set_active(true);
+		}
 		if(equipped) {
 			this.useButton.label.set_text("Unequip");
 		} else if(item.type == items_ItemType.weapon || item.type == items_ItemType.armor) {
@@ -104925,25 +105123,34 @@ ui_play_components_Inventory.prototype = $extend(flixel_addons_ui_FlxUIGroup.pro
 			}
 		}
 	}
+	,dropSelectedItem: function(actor,state) {
+		var itemType = this.selectedItem.type;
+		this.selectedItem.unEquipFrom(actor,state.ui);
+		this.drawEquipped(actor,state);
+		state.getCurrentSpace().items.add(this.selectedItem);
+		HxOverrides.remove(actor.inventory,this.selectedItem);
+		this.deSelectItem();
+		this.updateInventory(actor,state,null,itemType);
+	}
 	,useItem: function(item,actor,state) {
 		var used = item.useOn(actor,state.ui);
 		if(used) {
 			this.deSelectItem();
-			this.updateInventory(actor,state);
+			this.updateInventory(actor,state,null,item.type);
 		}
 	}
 	,equipItem: function(item,actor,state) {
 		var equipped = item.equipTo(actor,state.ui);
 		if(equipped) {
 			this.deSelectItem();
-			this.updateInventory(actor,state);
+			this.updateInventory(actor,state,null,item.type);
 		}
 	}
 	,unEquipItem: function(item,actor,state) {
 		var unEquipped = item.unEquipFrom(actor,state.ui);
 		if(unEquipped) {
 			this.deSelectItem();
-			this.updateInventory(actor,state);
+			this.updateInventory(actor,state,null,item.type);
 		}
 	}
 	,__class__: ui_play_components_Inventory
@@ -104988,9 +105195,11 @@ var ui_play_components_ItemStats = function(item,x,y,width,height,buying) {
 	if(x == null) {
 		x = 0;
 	}
-	flixel_group_FlxTypedSpriteGroup.call(this,x,y);
+	var boundedX = ui_UIUtils.boundedX(x,width);
+	var boundedY = ui_UIUtils.boundedY(y,height);
+	flixel_group_FlxTypedSpriteGroup.call(this,boundedX,boundedY);
 	this.item = item;
-	var backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(x,y,width,height));
+	var backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(boundedX,boundedY,width,height));
 	var nameText = new flixel_text_FlxText(5,5,0,item.name);
 	this.add(backdrop);
 	this.add(nameText);
@@ -105224,10 +105433,7 @@ ui_play_components_QuestStats.__super__ = flixel_group_FlxTypedSpriteGroup;
 ui_play_components_QuestStats.prototype = $extend(flixel_group_FlxTypedSpriteGroup.prototype,{
 	__class__: ui_play_components_QuestStats
 });
-var ui_play_components_SkillStats = function(skill,x,y,width,height) {
-	if(height == null) {
-		height = 50;
-	}
+var ui_play_components_SkillStats = function(skill,x,y,width) {
 	if(width == null) {
 		width = 200;
 	}
@@ -105237,15 +105443,18 @@ var ui_play_components_SkillStats = function(skill,x,y,width,height) {
 	if(x == null) {
 		x = 0;
 	}
-	flixel_group_FlxTypedSpriteGroup.call(this,x,y);
+	var boundedX = ui_UIUtils.boundedX(x,width);
+	flixel_group_FlxTypedSpriteGroup.call(this,boundedX,y);
 	this.skill = skill;
-	this.backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(x,y,width,height));
+	this.backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(boundedX,y,width,0));
 	var nameText = new flixel_text_FlxText(5,5,0,skill.name,16);
 	this.add(this.backdrop);
 	this.add(nameText);
 	this.addDescription();
 	this.addEffects();
 	this.updateBackdropHeight();
+	var boundedY = ui_UIUtils.boundedY(y,Math.ceil(this.backdrop.get_height()));
+	y = boundedY;
 };
 $hxClasses["ui.play.components.SkillStats"] = ui_play_components_SkillStats;
 ui_play_components_SkillStats.__name__ = ["ui","play","components","SkillStats"];
@@ -105286,6 +105495,7 @@ var ui_play_components_Skills = function(actor,state,ui1) {
 	var gameHeight = flixel_FlxG.height;
 	this.set_y(Math.floor(gameHeight / 5) * 4);
 	this.actor = actor;
+	this.disabled = false;
 	this.drawSlots();
 	this.drawSkills(state,ui1);
 	state.add(this);
@@ -105295,29 +105505,18 @@ ui_play_components_Skills.__name__ = ["ui","play","components","Skills"];
 ui_play_components_Skills.__super__ = flixel_group_FlxTypedSpriteGroup;
 ui_play_components_Skills.prototype = $extend(flixel_group_FlxTypedSpriteGroup.prototype,{
 	actor: null
-	,refresh: function(state,ui1) {
-		var _g = 0;
-		var _g1 = this.group.members;
-		while(_g < _g1.length) {
-			var member = _g1[_g];
-			++_g;
-			member.kill();
-		}
-		this.drawSlots();
-		this.drawSkills(state,ui1);
-	}
-	,drawSlots: function() {
-		var gameWidth = flixel_FlxG.width;
-		var slotSpacing = gameWidth / 8;
-		var _g = 0;
-		while(_g < 8) {
-			var i = _g++;
-			this.add(new flixel_FlxSprite(i * slotSpacing,0,"assets/images/ui/tile.png"));
-		}
-	}
+	,selectedSkillBorder: null
+	,selectedSkillStats: null
+	,skillButtons: null
+	,disabled: null
+	,useSkillButton: null
+	,skillToUse: null
+	,actorUsingSkill: null
+	,skillTarget: null
 	,drawSkills: function(state,ui1) {
+		this.skillButtons = [];
 		var gameWidth = flixel_FlxG.width;
-		var slotSpacing = gameWidth / 8;
+		var slotSpacing = Math.floor(gameWidth / 8);
 		var i = 0;
 		var _g = 0;
 		var _g1 = this.actor.skills;
@@ -105325,17 +105524,129 @@ ui_play_components_Skills.prototype = $extend(flixel_group_FlxTypedSpriteGroup.p
 			var knownSkill = _g1[_g];
 			++_g;
 			if(knownSkill.equipped) {
-				var skillButton = new flixel_addons_ui_FlxUIButton(i * slotSpacing,0,"",(function(a2,a1,f) {
+				var skillButton = new flixel_addons_ui_FlxUIButton(i * slotSpacing,0,"",(function(x,a2,ui2,a1,f) {
 					return function() {
-						f[0](a1[0],a2[0]);
+						f[0](a1[0],ui2[0],a2[0],x[0]);
 					};
-				})([knownSkill.skill],[this.actor],[$bind(ui1,ui1.setSelectedSkill)]));
+				})([i * slotSpacing],[state],[ui1],[knownSkill.skill],[$bind(this,this.skillClicked)]),false,true);
 				skillButton.resize(42,42);
 				skillButton.addIcon(new flixel_FlxSprite(i * slotSpacing,0,"assets/images/skills/" + knownSkill.skill.id + ".png"));
+				this.skillButtons.push(skillButton);
 				this.add(skillButton);
 				++i;
 			}
 		}
+		if(this.disabled) {
+			this.disable();
+		}
+	}
+	,refresh: function(state,ui1) {
+		var _g = 0;
+		var _g1 = this.skillButtons;
+		while(_g < _g1.length) {
+			var skillButton = _g1[_g];
+			++_g;
+			skillButton.kill();
+		}
+		this.unSetSkillToUse(ui1);
+		this.drawSkills(state,ui1);
+	}
+	,unSetSkillToUse: function(ui1) {
+		this.skillToUse = null;
+		this.actorUsingSkill = null;
+		this.skillTarget = null;
+		this.removeSkillButton();
+		this.removeSelectedSkillBorder();
+		this.removeSkillStats();
+		ui1.showMiddleButton();
+	}
+	,disable: function() {
+		this.disabled = true;
+		var _g = 0;
+		var _g1 = this.skillButtons;
+		while(_g < _g1.length) {
+			var skillButton = _g1[_g];
+			++_g;
+			skillButton.set_active(false);
+		}
+	}
+	,enable: function() {
+		this.disabled = false;
+		var _g = 0;
+		var _g1 = this.skillButtons;
+		while(_g < _g1.length) {
+			var skillButton = _g1[_g];
+			++_g;
+			skillButton.set_active(true);
+		}
+	}
+	,removeSkillButton: function() {
+		if(this.useSkillButton != null) {
+			this.remove(this.useSkillButton);
+			this.useSkillButton = null;
+		}
+	}
+	,removeSelectedSkillBorder: function() {
+		if(this.selectedSkillBorder != null) {
+			this.remove(this.selectedSkillBorder);
+			this.selectedSkillBorder = null;
+		}
+	}
+	,removeSkillStats: function() {
+		if(this.selectedSkillStats != null) {
+			this.remove(this.selectedSkillStats);
+			this.selectedSkillStats = null;
+		}
+	}
+	,drawSlots: function() {
+		var gameWidth = flixel_FlxG.width;
+		var slotSpacing = gameWidth / 8;
+		var _g = 0;
+		while(_g < 8) {
+			var i = _g++;
+			this.add(new flixel_FlxSprite(i * slotSpacing,0,"assets/images/ui/tile_dark_filled.png"));
+		}
+	}
+	,skillClicked: function(skill,ui1,state,x) {
+		if(x == null) {
+			x = 0;
+		}
+		var gameHeight = flixel_FlxG.height;
+		var gameWidth = flixel_FlxG.width;
+		var buttonsHeight = Math.floor(gameHeight / 5) - 42;
+		var buttonsWidth = Math.floor(gameWidth / 3);
+		var target = state.getTargetForSkill(this.actor,skill);
+		if(this.skillToUse == skill) {
+			this.unSetSkillToUse(ui1);
+		} else {
+			this.unSetSkillToUse(ui1);
+			ui1.hideMiddleButton();
+			ui1.deselectItemOnSpace();
+			this.skillToUse = skill;
+			this.actorUsingSkill = this.actor;
+			this.skillTarget = target;
+			var f = $bind(this,this.useSkill);
+			var ui2 = ui1;
+			var tmp = function() {
+				f(ui2);
+			};
+			this.useSkillButton = new flixel_addons_ui_FlxUIButton(buttonsWidth,42,"Use " + skill.name,tmp);
+			this.useSkillButton.resize(buttonsWidth,buttonsHeight);
+			if(state.getCurrentSpace().enemy == null && skill.attack) {
+				this.useSkillButton.set_active(false);
+			}
+			this.selectedSkillStats = new ui_play_components_SkillStats(skill,x,0);
+			var _g = this.selectedSkillStats;
+			_g.set_y(_g.y - this.selectedSkillStats.get_height());
+			this.selectedSkillBorder = new flixel_FlxSprite(x,0,"assets/images/ui/tile_selected.png");
+			this.add(this.useSkillButton);
+			this.add(this.selectedSkillStats);
+			this.add(this.selectedSkillBorder);
+		}
+	}
+	,useSkill: function(ui1) {
+		this.actorUsingSkill.useSkill(this.skillToUse,this.skillTarget,ui1);
+		this.unSetSkillToUse(ui1);
 	}
 	,__class__: ui_play_components_Skills
 });
@@ -105352,6 +105663,10 @@ ui_play_components_SpaceImage.prototype = $extend(flixel_group_FlxTypedGroup.pro
 	,enemyImage: null
 	,friendlyImage: null
 	,itemButtons: null
+	,selectedItem: null
+	,selectedItemStats: null
+	,selectedItemOutline: null
+	,pickupItemButton: null
 	,init: function(space,state) {
 		var spaceImageY = Math.floor(flixel_FlxG.height / 5);
 		this.spaceImage = new flixel_FlxSprite(0,spaceImageY,"assets/images/spaces/" + space.imageName);
@@ -105371,6 +105686,7 @@ ui_play_components_SpaceImage.prototype = $extend(flixel_group_FlxTypedGroup.pro
 			this.add(this.friendlyImage);
 		}
 		if(space.items != null) {
+			var itemSpacingX = Math.ceil((flixel_FlxG.width - 10) / 8);
 			var i = 0;
 			var _g_head = space.items.h;
 			while(_g_head != null) {
@@ -105378,12 +105694,14 @@ ui_play_components_SpaceImage.prototype = $extend(flixel_group_FlxTypedGroup.pro
 				_g_head = _g_head.next;
 				var item = val;
 				var itemImage = new flixel_FlxSprite(0,0,"assets/images/items/" + Std.string(item.type) + "/" + item.imageName);
-				var itemButton = new flixel_addons_ui_FlxUIButton(i * 32,spaceImageY,null,(function(a3,a2,a1,f) {
+				var x = 5 + i * itemSpacingX;
+				var y = spaceImageY * 4 - 47;
+				var itemButton = new flixel_addons_ui_FlxUIButton(x,y,null,(function(a4,Y,X,a3,a2,a1,f) {
 					return function() {
-						f[0](a1[0],a2[0],a3[0]);
+						f[0](a1[0],a2[0],a3[0],X[0],Y[0],a4[0]);
 					};
-				})([state],[item],[space],[$bind(this,this.pickupItem)]),false,true);
-				itemButton.resize(32,32);
+				})([itemImage],[y],[x],[state],[item],[space],[$bind(this,this.itemClicked)]),false,true);
+				itemButton.resize(42,42);
 				itemButton.addIcon(itemImage);
 				this.itemButtons.add(itemButton);
 				this.add(itemButton);
@@ -105392,12 +105710,58 @@ ui_play_components_SpaceImage.prototype = $extend(flixel_group_FlxTypedGroup.pro
 		}
 		state.add(this);
 	}
+	,itemClicked: function(space,item,state,X,Y,itemImage) {
+		var gameHeight = flixel_FlxG.height;
+		var gameWidth = flixel_FlxG.width;
+		var buttonsHeight = Math.floor(gameHeight / 5) - 42;
+		var buttonsY = Math.floor(gameHeight / 5) * 4 + 42;
+		var buttonsWidth = Math.floor(gameWidth / 3);
+		if(this.selectedItem == item) {
+			this.deselectItem();
+			state.ui.showMiddleButton();
+		} else {
+			this.deselectItem();
+			this.selectedItem = item;
+			this.selectedItemStats = new ui_play_components_ItemStats(item,X,Y);
+			var _g = this.selectedItemStats;
+			_g.set_y(_g.y - this.selectedItemStats.get_height());
+			this.selectedItemOutline = new flixel_FlxSprite(X,Y,"assets/images/ui/tile_selected.png");
+			if(state.getPlayer().canPickup(item)) {
+				var f = $bind(this,this.pickupItem);
+				var a1 = space;
+				var a2 = item;
+				var a3 = state;
+				this.pickupItemButton = new flixel_addons_ui_FlxUIButton(buttonsWidth,buttonsY,"Pick Up",function() {
+					f(a1,a2,a3);
+				});
+				this.pickupItemButton.resize(buttonsWidth,buttonsHeight);
+				this.add(this.pickupItemButton);
+			}
+			this.add(this.selectedItemStats);
+			this.add(this.selectedItemOutline);
+			state.ui.deselectSkill();
+			state.ui.hideMiddleButton();
+		}
+	}
+	,deselectItem: function() {
+		if(this.selectedItem != null) {
+			this.remove(this.selectedItemStats);
+			this.remove(this.selectedItemOutline);
+			if(this.pickupItemButton != null) {
+				this.remove(this.pickupItemButton);
+				this.pickupItemButton = null;
+			}
+			this.selectedItem = null;
+		}
+	}
 	,pickupItem: function(space,item,state) {
 		if(space.player != null) {
 			space.player.inventory.push(item);
 			space.items.remove(item);
 			this.reInitialize(space,state);
-			state.ui.updateInventory(space.player);
+			state.ui.addItemToInventory(space.player,item);
+			this.deselectItem();
+			state.ui.showMiddleButton();
 		}
 	}
 	,reInitialize: function(space,state) {
@@ -105417,7 +105781,7 @@ var ui_play_components_DialogueOptionButton = function(X,Y,option,dialogue) {
 	var gameHeight = flixel_FlxG.height;
 	var gameWidth = flixel_FlxG.width;
 	var buttonsWidth = Math.floor(gameWidth / 3);
-	var buttonsHeight = Math.floor(gameHeight / 5);
+	var buttonsHeight = Math.floor(gameHeight / 5) - 42;
 	var f = $bind(dialogue,dialogue.optionChosen);
 	var a1 = option;
 	var tmp = function() {
@@ -105441,9 +105805,13 @@ var ui_play_components_TalkDialogue = function(actor,state,onEndCallback,onTrade
 	this.onEndCallback = onEndCallback;
 	this.onTradeCallback = onTradeCallback;
 	this.onQuestCallback = onQuestCallback;
-	this.responseText = new flixel_addons_text_FlxTypeText(5,21,0,"");
-	var backdrop = new flixel_addons_ui_FlxUI9SliceSprite(0,0,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(0,0,200,100));
-	var nameText = new flixel_text_FlxText(5,5,0,actor.name);
+	var width = flixel_FlxG.width / 2;
+	var height = 100;
+	var xOffset = flixel_FlxG.width / 4;
+	var yOffset = flixel_FlxG.height / 5 * 4 - height;
+	this.responseText = new flixel_addons_text_FlxTypeText(xOffset + 5,yOffset + 21,Math.floor(width - 10),"");
+	var backdrop = new flixel_addons_ui_FlxUI9SliceSprite(xOffset,yOffset,"assets/images/ui/chrome_flat_dark.png",new openfl_geom_Rectangle(0,0,width,height));
+	var nameText = new flixel_text_FlxText(xOffset + 5,yOffset + 5,0,actor.name);
 	this.fullScreenButton = new flixel_addons_ui_FlxUIButton(0,0,null,($_=this.responseText,$bind($_,$_.skip)),false,true);
 	this.fullScreenButton.resize(flixel_FlxG.width,flixel_FlxG.height);
 	var satisfiedQuests = state.getPlayer().getSatisfiedQuestsFor(actor);
@@ -105468,6 +105836,7 @@ var ui_play_components_TalkDialogue = function(actor,state,onEndCallback,onTrade
 	this.add(this.responseText);
 	state.add(this);
 	state.ui.hideButtons();
+	state.ui.disableSkills();
 };
 $hxClasses["ui.play.components.TalkDialogue"] = ui_play_components_TalkDialogue;
 ui_play_components_TalkDialogue.__name__ = ["ui","play","components","TalkDialogue"];
@@ -105581,8 +105950,7 @@ ui_play_components_TalkDialogue.prototype = $extend(flixel_group_FlxTypedGroup.p
 		var gameHeight = flixel_FlxG.height;
 		var gameWidth = flixel_FlxG.width;
 		var buttonsWidth = Math.floor(gameWidth / 3);
-		var buttonsHeight = Math.floor(gameHeight / 5);
-		var buttonsY = buttonsHeight * 4;
+		var buttonsY = Math.floor(gameHeight / 5) * 4 + 42;
 		var options = this.dialogue.respondWith().options;
 		var i = 0;
 		if(options != null) {
@@ -105625,8 +105993,6 @@ var ui_play_components_TradeWindow = function(trader,tradeRecipiant,state,buying
 	if(this.weaponTile != null) {
 		this.remove(this.weaponTile);
 	}
-	this.tabMenu.set_x(0);
-	this.tabMenu.resize(flixel_FlxG.width,0);
 	if(visible) {
 		this.toggle(state);
 	}
@@ -105641,7 +106007,7 @@ ui_play_components_TradeWindow.prototype = $extend(ui_play_components_Inventory.
 	,setRecipiantWindow: function(recipiantWindow) {
 		this.recipiantWindow = recipiantWindow;
 	}
-	,selectItem: function(item,equipped,x,y) {
+	,selectItem: function(item,equipped,x,y,state) {
 		if(y == null) {
 			y = 0;
 		}
@@ -105653,14 +106019,16 @@ ui_play_components_TradeWindow.prototype = $extend(ui_play_components_Inventory.
 		}
 		var _gthis = this;
 		this.selectedItem = item;
-		this.selectedItemStats = new ui_play_components_ItemStats(item,x - 50,y,null,null,this.buying);
+		this.selectedItemBorder = new flixel_FlxSprite(x,y,"assets/images/ui/tile_selected.png");
+		this.selectedItemStats = new ui_play_components_ItemStats(item,x + 42,y + 42,null,null,this.buying);
+		this.add(this.selectedItemBorder);
 		this.add(this.selectedItemStats);
 		if(this.buying) {
 			this.useButton.set_visible(true);
 			this.useButton.label.set_text("buy");
 			if(this.tradeRecipiant.gold >= item.buyPrice && this.tradeRecipiant.inventory.filter(function(f) {
 				return f.type == _gthis.selectedItem.type;
-			}).length < 16) {
+			}).length < 36) {
 				this.useButton.set_active(true);
 			}
 		} else {
@@ -105668,7 +106036,7 @@ ui_play_components_TradeWindow.prototype = $extend(ui_play_components_Inventory.
 			this.useButton.label.set_text("sell");
 			if(this.tradeRecipiant.inventory.filter(function(f1) {
 				return f1.type == _gthis.selectedItem.type;
-			}).length < 16) {
+			}).length < 36) {
 				this.useButton.set_active(true);
 			}
 		}
@@ -105965,26 +106333,27 @@ AssetPaths.critical_strike__png = "assets/images/skills/critical_strike.png";
 AssetPaths.power_attack__png = "assets/images/skills/power_attack.png";
 AssetPaths.town__png = "assets/images/spaces/town.png";
 AssetPaths.shop__png = "assets/images/spaces/shop.png";
+AssetPaths.beach__png = "assets/images/spaces/beach.png";
 AssetPaths.plains__png = "assets/images/spaces/plains.png";
 AssetPaths.plains_relics__png = "assets/images/spaces/plains_relics.png";
+AssetPaths.tile_dark_weapon__png = "assets/images/ui/tile_dark_weapon.png";
 AssetPaths.armor__png = "assets/images/ui/armor.png";
 AssetPaths.tile__png = "assets/images/ui/tile.png";
-AssetPaths.tile_skill__png = "assets/images/ui/tile_skill.png";
 AssetPaths.currency__png = "assets/images/ui/currency.png";
 AssetPaths.inventory__png = "assets/images/ui/inventory.png";
+AssetPaths.button_dark__png = "assets/images/ui/button_dark.png";
 AssetPaths.misc__png = "assets/images/ui/misc.png";
-AssetPaths.tile_misc__png = "assets/images/ui/tile_misc.png";
 AssetPaths.consumable__png = "assets/images/ui/consumable.png";
 AssetPaths.chrome_flat__png = "assets/images/ui/chrome_flat.png";
 AssetPaths.chrome_flat_dark__png = "assets/images/ui/chrome_flat_dark.png";
-AssetPaths.tile_armor__png = "assets/images/ui/tile_armor.png";
+AssetPaths.tile_selected__png = "assets/images/ui/tile_selected.png";
+AssetPaths.tile_dark_armor__png = "assets/images/ui/tile_dark_armor.png";
 AssetPaths.quest__png = "assets/images/ui/quest.png";
 AssetPaths.tile_dark__png = "assets/images/ui/tile_dark.png";
 AssetPaths.tab_back__png = "assets/images/ui/tab_back.png";
 AssetPaths.weapon__png = "assets/images/ui/weapon.png";
-AssetPaths.tile_consumable__png = "assets/images/ui/tile_consumable.png";
+AssetPaths.tile_dark_filled__png = "assets/images/ui/tile_dark_filled.png";
 AssetPaths.tab__png = "assets/images/ui/tab.png";
-AssetPaths.tile_weapon__png = "assets/images/ui/tile_weapon.png";
 AssetPaths.skill__png = "assets/images/ui/skill.png";
 AssetPaths.practice_dummy__png = "assets/images/enemies/practice_dummy.png";
 AssetPaths.wolf__png = "assets/images/enemies/wolf.png";
@@ -106010,6 +106379,7 @@ AssetPaths.power_attack__json = "assets/data/disciplines/body/skills/power_attac
 AssetPaths.tackle__json = "assets/data/disciplines/body/skills/tackle.json";
 AssetPaths.names__json = "assets/data/disciplines/names.json";
 AssetPaths.town_rest__json = "assets/data/spaces/town_rest.json";
+AssetPaths.beach__json = "assets/data/spaces/beach.json";
 AssetPaths.town__json = "assets/data/spaces/town.json";
 AssetPaths.shop__json = "assets/data/spaces/shop.json";
 AssetPaths.plains__json = "assets/data/spaces/plains.json";
